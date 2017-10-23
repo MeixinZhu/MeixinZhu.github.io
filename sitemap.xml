@@ -151,16 +151,6 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://MeixinZhu.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -202,6 +192,16 @@
     
       <loc>https://MeixinZhu.github.io/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://MeixinZhu.github.io/</loc>
+      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
