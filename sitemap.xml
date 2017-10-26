@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/project/sh-nds/</loc>
+      <loc>https://MeixinZhu.github.io/project/shanghai-naturalistic-driving-study/</loc>
       <lastmod>2017-08-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -167,7 +167,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/project/fcw/</loc>
+      <loc>https://MeixinZhu.github.io/project/driving-behavior-research-for-intelligent-collision-avoidance-technology/</loc>
       <lastmod>2016-08-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -223,6 +223,16 @@
     
     <url>
     
+      <loc>https://MeixinZhu.github.io/tags/cictp/</loc>
+      <lastmod>2017-10-25T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://MeixinZhu.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -254,6 +264,16 @@
     
       <loc>https://MeixinZhu.github.io/</loc>
       <lastmod>2017-10-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://MeixinZhu.github.io/tags/naturalistic-driving-study/</loc>
+      <lastmod>2017-10-25T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
