@@ -259,6 +259,16 @@
     
     <url>
     
+      <loc>https://MeixinZhu.github.io/tags/autonomous-driving/</loc>
+      <lastmod>2016-08-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://MeixinZhu.github.io/tags/cictp/</loc>
       <lastmod>2017-10-25T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -279,7 +289,7 @@
     <url>
     
       <loc>https://MeixinZhu.github.io/tags/computer-vision/</loc>
-      <lastmod>2016-08-27T00:00:00+00:00</lastmod>
+      <lastmod>2016-08-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -350,6 +360,16 @@
     
       <loc>https://MeixinZhu.github.io/publication_types/</loc>
       <lastmod>2017-10-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://MeixinZhu.github.io/tags/reinforcement-learning/</loc>
+      <lastmod>2016-08-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
