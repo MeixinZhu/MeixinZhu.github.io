@@ -287,16 +287,6 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/tags/cictp/</loc>
-      <lastmod>2017-10-25T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://MeixinZhu.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -308,6 +298,16 @@
     
       <loc>https://MeixinZhu.github.io/tags/computer-vision/</loc>
       <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://MeixinZhu.github.io/tags/driving-behavior/</loc>
+      <lastmod>2017-10-25T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -336,7 +336,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/tags/hugo/</loc>
+      <loc>https://MeixinZhu.github.io/tags/international-meeting/</loc>
       <lastmod>2017-10-25T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
@@ -358,16 +358,6 @@
     
       <loc>https://MeixinZhu.github.io/tags/nds/</loc>
       <lastmod>2017-08-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://MeixinZhu.github.io/tags/naturalistic-driving-study/</loc>
-      <lastmod>2017-10-25T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -408,6 +398,16 @@
     
       <loc>https://MeixinZhu.github.io/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://MeixinZhu.github.io/tags/traffic-simulation/</loc>
+      <lastmod>2017-10-25T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
