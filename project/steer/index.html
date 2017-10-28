@@ -44,11 +44,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://MeixinZhu.github.io/project/rlcar/">
+  <link rel="canonical" href="https://MeixinZhu.github.io/project/steer/">
 
   
 
-  <title>Autonomous Car Following by Deep Reinforcement Learning | Meixin Zhu</title>
+  <title>End-to-End Learning for Steering Control | Meixin Zhu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -177,7 +177,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Autonomous Car Following by Deep Reinforcement Learning</h1>
+      <h1 itemprop="name">End-to-End Learning for Steering Control</h1>
       <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
@@ -185,35 +185,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Autonomous%20Car%20Following%20by%20Deep%20Reinforcement%20Learning&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2frlcar%2f"
+         href="https://twitter.com/intent/tweet?text=End-to-End%20Learning%20for%20Steering%20Control&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsteer%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fMeixinZhu.github.io%2fproject%2frlcar%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsteer%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2frlcar%2f&amp;title=Autonomous%20Car%20Following%20by%20Deep%20Reinforcement%20Learning"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsteer%2f&amp;title=End-to-End%20Learning%20for%20Steering%20Control"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2frlcar%2f&amp;title=Autonomous%20Car%20Following%20by%20Deep%20Reinforcement%20Learning"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsteer%2f&amp;title=End-to-End%20Learning%20for%20Steering%20Control"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Autonomous%20Car%20Following%20by%20Deep%20Reinforcement%20Learning&amp;body=https%3a%2f%2fMeixinZhu.github.io%2fproject%2frlcar%2f">
+         href="mailto:?subject=End-to-End%20Learning%20for%20Steering%20Control&amp;body=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsteer%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -227,35 +227,27 @@
     
 
     <div class="article-style" itemprop="articleBody">
-      
+      <p>This on-going project is inspired by NVIDIA&rsquo;s research (1) and MIT 6.S094&rsquo;s DeepTesla project (2). It aims to learn human drivers&rsquo; strategy in steering control. The learned model can map raw pixels from a single front-facing camera directly to steering commands.</p>
 
-<p>This on-going project aims to develop autonomous car-following strategy based on deep Reinforcement Learning (deep RL).</p>
-
-<h2 id="deep-reinforcement-learning">Deep Reinforcement Learning</h2>
-
-<p>Deep RL is a field that seeks to combine the advances in deep neural networks with reinforcement learning algorithms to create agents capable of acting intelligently in complex environments, and exciting breakthroughs have been witnessed, like deep Q-network and AlphaGo.</p>
-
-<p>Deep reinforcement learning can achieve better generalization capability because it learns decision-making mechanisms from training data rather than parameter estimation through fitting the data.</p>
-
-<h2 id="autonomous-car-following">Autonomous Car Following</h2>
-
-<p>The key element in developing autonomous car-following strategy by reinforcement learning is the design of the reward function. Currently, we have developed two types of reward functions: 1) reward function reflecting deviation from human driving performance, leading to human-like car following; and 2) reward function reflecting driving efficiency, safety, and comfort, leading to multi-objective autonomous car-following. More information can be accessed in my future publications.</p>
-
-<p>The following demo animation shows the car-following learning process of RL agents. In early training episodes, cars become red frequently, indicating penalties caused by bad car-following performance, e.g., rear end crashes. As training converges, the RL agents maintain steady car-following headways, and receive less penalties.<br />
+<p>The training data includes image frames from a front-facing camera, and the corresponding steering angles from human drivers. I started with the model described in Nvidia paper (1) and the following figure shows the initial results. Future studies will focus on how the model can be applied to data collected from <a href="/project/sh-nds.md">Shanghai Naturalistic Driving Study</a>.
  
 <figure >
     
-        <img src="/img/rlcar.gif" />
+        <img src="/img/steer.gif" />
     
     
     <figcaption>
-        <h4>Demonstration of the car-following learning process of RL agents</h4>
+        <h4>Initial results of end-to-end learning for steering control</h4>
         
     </figcaption>
     
 </figure>
 </p>
 
+<p>## Reference
+ 1. Bojarski, M., Del Testa, D., Dworakowski, D., Firner, B., Flepp, B., Goyal, P., &hellip; &amp; Zhang, X. (2016). End to end learning for self-driving cars. arXiv preprint arXiv:1604.07316.
+ 2. MIT6.S094 Deeptesla: <a href="http://selfdrivingcars.mit.edu/deeptesla/" target="_blank">http://selfdrivingcars.mit.edu/deeptesla/</a></p>
+
 
       
       
@@ -265,47 +257,6 @@
         
         
         
-        
-          <h2>Publications</h2>
-          
-            
-              <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Meixin Zhu, Xuesong Wang, Yinhai Wang</span>.
-  <a href="https://MeixinZhu.github.io/publication/human-like-car-following/" itemprop="name">Human-like Autonomous Car-Following Planning by Deep Reinforcement Learning</a>.
-  Accepted for Presentation in the 97th TRB Annual Meeting,&nbsp;2017.
-  <p>
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="/project/sh-nds/">
-  Project
-</a>
-
-<a class="btn btn-primary btn-outline btn-xs" href="/project/rlcar/">
-  Project
-</a>
-
-
-
-
-
-
-
-</p>
-</div>
-
-            
-          
         
 
         
@@ -322,12 +273,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://MeixinZhu.github.io/project/steer/"><span
-      aria-hidden="true">&larr;</span> End-to-End Learning for Steering Control</a></li>
+    <li class="previous"><a href="https://MeixinZhu.github.io/project/faw/"><span
+      aria-hidden="true">&larr;</span> Driving Behavior Research for Intelligent Collision Avoidance Technology</a></li>
     
 
     
-    <li class="next"><a href="https://MeixinZhu.github.io/project/sh-nds/">Shanghai Naturalistic Driving Study <span
+    <li class="next"><a href="https://MeixinZhu.github.io/project/rlcar/">Autonomous Car Following by Deep Reinforcement Learning <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
