@@ -229,7 +229,7 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<p>This project was an entry for the 2015 China Post-Graduate Mathematical Contest in Modeling. It aimed to segment different moving objects in a video sequence, using subspace clustering methods.</p>
+<p>This project aimed to segment different moving objects in a video sequence, using subspace clustering methods.</p>
 
 <h2 id="subspace-clustering-introduction">Subspace Clustering Introduction</h2>
 
@@ -258,7 +258,7 @@
 
 <p>Motion segmentation is the separation of objects with different motion in video, and it is an indispensable step in the understanding and reconstruction of dynamic scenes.</p>
 
-<p>Feature-point trajectory based method is widely used. This method firstly uses the standard tracking method to extract feature points of different trajectories of moving objects in the video, then segments different feature points corresponding to different motion trajectory in the scene.</p>
+<p>Feature-point trajectory based method is widely used. This method firstly uses the standard tracking method to extract feature points of different moving objects in the video, then assign them to the corresponding moving objects.</p>
 
 <p>Considering that GPCA method is vulnerable to data noise, Sparse Subspace Clustering (SSC) was adopted to solve motion segmentaion.</p>
 
@@ -279,9 +279,7 @@
 
 <h2 id="manifold-clustering">Manifold Clustering</h2>
 
-<p>Additionally, we have also investigated clustering of non-linear subspace, i.e., manifold clustering. The results are shown in the following figure.</p>
-
-<p>With stabilized video, the gaussian mixture method was used to model the background, and foregrounds (moving vehicles) could thus be detected. A Kalman filter was then applied to track the detected vehicles.
+<p>Additionally, we have also investigated clustering of non-linear subspaces, i.e., manifold clustering. The results are shown in the following figure.
 
 <figure >
     
