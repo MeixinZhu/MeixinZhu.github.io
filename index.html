@@ -320,7 +320,7 @@
   <div class="col-md-12">
     
 
-<p><strong>Research Summary</strong></p>
+<p><big><strong>Research Summary</strong></big></p>
 
 <p>Over the last three years (starting from 2014), my research experiences can be categorized into five main areas of focus that related to traffic systems:</p>
 
@@ -348,7 +348,11 @@
 <li><a href="#collision-avoidance-behavior">Collision Avoidance Behavior</a></li>
 <li><a href="#distracted-driving">Distracted Driving</a></li>
 </ul></li>
-<li><a href="#vehicle-active-safety">Vehicle Active Safety</a></li>
+<li><a href="#vehicle-active-safety">Vehicle Active Safety</a>
+<ul>
+<li><a href="#developing-forward-collision-warning-system">Developing Forward Collision Warning System</a></li>
+<li><a href="#evaluating-forward-collision-warning-system">Evaluating Forward Collision Warning System</a></li>
+</ul></li>
 <li><a href="#optimized-road-design">Optimized Road Design</a></li>
 <li><a href="#traffic-flow-modeling-and-simulation">Traffic Flow Modeling and Simulation</a>
 <ul>
@@ -417,17 +421,47 @@
 
 <h2 id="vehicle-active-safety">Vehicle Active Safety</h2>
 
+<h3 id="developing-forward-collision-warning-system">Developing Forward Collision Warning System</h3>
+
+<ul>
+<li>Developed a kinematic-based forward collision warning (FCW) algorithm that is compatible with drivers’ risk perceptions and behavioral responses.</li>
+<li>Implemented the proposed FCW algorithm in Tongji University driving simulator, and evaluated the system’s performance, warning timing, and safety benefits.</li>
+</ul>
+
+<h3 id="evaluating-forward-collision-warning-system">Evaluating Forward Collision Warning System</h3>
+
+<p>In Shanghai Naturalistic Driving Study, 5 data collecting vehicles were equipped with Mobileye® systems, which include an FCW function. Participants drove the instrumented vehicles for two months, with the Mobileye® system not activated for the first month, but activated for the second month. The impact of the FCW system on drivers’ car-following behaviors was investigated:</p>
+
+<ul>
+<li>Drivers tended to maintain a longer headway when FCW activated.</li>
+<li>The FCW resulted in a 0.13s decrease of reaction time in daytime driving, and a 0.09s decrease when a following vehicle had higher speed than the lead vehicle.</li>
+<li>The reaction time during car following was affected by relative distance, lead vehicle acceleration, and traffic density.</li>
+</ul>
+
 <h2 id="optimized-road-design">Optimized Road Design</h2>
+
+<p>In Optimized Design for Combined Road Alignment, the effects of combined alignments on driving behavior (e.g., speed and lateral acceleration) and safety performance (crash surrogate measures like lane departure events and emergency braking events) were examined using driving simulator and field data. The results will assist engineers to design safer mountainous freeways.</p>
 
 <h2 id="traffic-flow-modeling-and-simulation">Traffic Flow Modeling and Simulation</h2>
 
 <h3 id="car-following-model">Car-Following Model</h3>
 
+<p>Five representative car-following models (Gaxis-Herman-Rothery, Gipps, intelligent driver, full velocity difference, and Wiedemann) were calibrated and validated with 2,100 urban-expressway car-following periods extracted from the 161,055 km of driving data collected in the Shanghai Naturalistic Driving Study. The models were evaluated based on their estimation and prediction capabilities of inter-vehicle spacings. The results showed that the full velocity difference model, with a validation error of 24%, performed best in modeling Chinese drivers’ behavior.</p>
+
 <h3 id="traffic-simulation-based-on-cellular-automaton-method">TRAFFIC SIMULATION BASED ON CELLULAR AUTOMATON METHOD</h3>
+
+<p>In order to evaluate the performance of the keep-right-except-to-pass rule in traffic systems, the cellular automaton method was applied to simulate traffic flows in one-lane, two-lane and three-lane freeways. The results showed that the model can replicated volume-density relationship well.</p>
 
 <h2 id="autonomous-driving">Autonomous Driving</h2>
 
 <h3 id="autonomous-driving-decision-making">Autonomous Driving Decision-Making</h3>
+
+<p>In Autonomous Car Following by Deep Reinforcement Learning, two types of autonomous car-following strategies were developed based on deep reinforcement learning (RL).</p>
+
+<ul>
+<li><strong>Human-Like Car Following</strong>: in the framework of human-like car following, historical driving data are fed into a simulation environment, where an RL agent learns from trying and interaction, with a reward function signaling how much the agent deviates from the empirical data. Results showed that this new model can reproduce human-like car-following behavior with significantly higher accuracy than traditional car-following models, especially in terms of speed replicating.</li>
+<li><strong>Safe, Efficient, and Comfortable Car Following</strong>: to fulfil the multi-objectives of car following, a reward function reflecting driving safety, efficiency, and comfort was constructed. With this reward function, the RL agent learns to control vehicle speed in a fashion that maximizes cumulative rewards, through trials and errors in the simulation environment. Results show that the model demonstrated the capability of safe, efficient, and comfortable velocity control in that it 1) has small percentages (8%) of dangerous minimum time to collision values (&lt; 5s) than human drivers in the NGSIM data (35%); 2) can maintain efficient and safe headways in the range of 1s to 2s; and 3) can follow the lead vehicle comfortably with smooth acceleration.</li>
+</ul>
 
 <h3 id="testing-of-automated-vehicles">Testing of Automated Vehicles</h3>
 
