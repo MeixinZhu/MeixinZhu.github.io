@@ -369,7 +369,11 @@
 </ul></li>
 <li><a href="#autonomous-driving">Autonomous Driving</a>
 <ul>
-<li><a href="#autonomous-car-following">Autonomous Car-Following</a></li>
+<li><a href="#autonomous-car-following">Autonomous Car-Following</a>
+<ul>
+<li><a href="#human-like-car-following">Human-Like Car Following</a></li>
+<li><a href="#safe-efficient-and-comfortable-car-following">Safe, Efficient, and Comfortable Car Following</a></li>
+</ul></li>
 <li><a href="#autonomous-driving-in-mixed-traffic-environments">Autonomous Driving in Mixed Traffic Environments</a></li>
 </ul></li>
 </ul></li>
@@ -460,9 +464,10 @@
 
 <h3 id="car-following-model">Car-Following Model</h3>
 
-<p>Five representative car-following models (Gaxis-Herman-Rothery, Gipps, intelligent driver, full velocity difference, and Wiedemann) were calibrated and validated with 2,100 urban-expressway car-following periods extracted from the 161,055 km of driving data collected in the <a href="https://MeixinZhu.github.io/project/sh-nds/" target="_blank">Shanghai Naturalistic Driving Study</a>. The models were evaluated based on their estimation and prediction capabilities of inter-vehicle spacings. (Paper: <a href="https://meixinzhu.github.io/publication/highway-journal/" target="_blank">Calibrating and Validating Car-Following Models on Urban Expressways for Chinese Drivers Using Naturalistic Driving Data</a>)</p>
+<p>The performances of existing car-following models applied to Chinese drivers were evaluated based on their estimation and prediction capabilities of inter-vehicle spacings. (Paper: <a href="https://meixinzhu.github.io/publication/highway-journal/" target="_blank">Calibrating and Validating Car-Following Models on Urban Expressways for Chinese Drivers Using Naturalistic Driving Data</a>)</p>
 
 <ul>
+<li>Five representative car-following models (Gaxis-Herman-Rothery, Gipps, intelligent driver, full velocity difference, and Wiedemann) were calibrated and validated with 2,100 urban-expressway car-following periods extracted from the 161,055 km of driving data collected in the <a href="https://MeixinZhu.github.io/project/sh-nds/" target="_blank">Shanghai Naturalistic Driving Study</a>.</li>
 <li>The full velocity difference (FVD) model had the lowest error term on validation dataset (21%), and the smallest standard deviation of errors.</li>
 <li>Compared to the Wiedemann model used by VISSIM®, the FVD model is more easily calibrated and demonstrates a higher and more robust performance, justify its suitability to be applied for microscopic traffic simulations in China.</li>
 </ul>
@@ -477,10 +482,20 @@
 
 <p>In <a href="https://MeixinZhu.github.io/project/rlcar/" target="_blank">Autonomous Car Following by Deep Reinforcement Learning</a>), two types of autonomous car-following strategies were developed based on deep reinforcement learning (RL).</p>
 
+<h4 id="human-like-car-following">Human-Like Car Following</h4>
+
+<p>Historical driving data are fed into a simulation environment, where an RL agent learns from trying and interaction, with a reward function signaling how much the agent deviates from the empirical data. Results showed that this new model can reproduce human-like car-following behavior with significantly higher accuracy than traditional car-following models, especially in terms of speed replicating. (Paper: <a href="https://meixinzhu.github.io/publication/human-like-car-following/" target="_blank">Human-like Autonomous Car-Following Planning by Deep Reinforcement Learning</a>)</p>
+
 <ul>
-<li><strong>Human-Like Car Following</strong>: in the framework of human-like car following, historical driving data are fed into a simulation environment, where an RL agent learns from trying and interaction, with a reward function signaling how much the agent deviates from the empirical data. Results showed that this new model can reproduce human-like car-following behavior with significantly higher accuracy than traditional car-following models, especially in terms of speed replicating. (Paper: <a href="https://meixinzhu.github.io/publication/human-like-car-following/" target="_blank">Human-like Autonomous Car-Following Planning by Deep Reinforcement Learning</a>)</li>
-<li><strong>Safe, Efficient, and Comfortable Car Following</strong>: to fulfil the multi-objectives of car following, a reward function reflecting driving safety, efficiency, and comfort was constructed. With this reward function, the RL agent learns to control vehicle speed in a fashion that maximizes cumulative rewards, through trials and errors in the simulation environment. Results showed that the model demonstrated the capability of safe, efficient, and comfortable velocity control in that it 1) has small percentages (8%) of dangerous minimum time to collision values (&lt; 5s) than human drivers in the NGSIM data (35%); 2) can maintain efficient and safe headways in the range of 1s to 2s; and 3) can follow the lead vehicle comfortably with smooth acceleration. (Paper: <a href="https://meixinzhu.github.io/publication/aided/" target="_blank">Reinforcement Learning based Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</a>)</li>
+<li>The model has a validation error of 18% on spacing and 5% on speed, which is generally 15 and 30 percentage points less, respectively, than that of traditional car-following models.</li>
+<li>The model demonstrates good capability of generalization to different driving situations and can adapt to different drivers by continuously learning.</li>
 </ul>
+
+<h4 id="safe-efficient-and-comfortable-car-following">Safe, Efficient, and Comfortable Car Following</h4>
+
+<p>To fulfil the multi-objectives of car following, a reward function reflecting driving safety, efficiency, and comfort was constructed. With this reward function, the RL agent learns to control vehicle speed in a fashion that maximizes cumulative rewards, through trials and errors in the simulation environment. Results showed that the model demonstrated the capability of safe, efficient, and comfortable velocity control. (Paper: <a href="https://meixinzhu.github.io/publication/aided/" target="_blank">Reinforcement Learning based Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</a>)
+- The model had small percentages (8%) of dangerous minimum time to collision values (&lt; 5s) than human drivers in the NGSIM data (35%).
+- The model can maintain efficient and safe headways in the range of 1s to 2s, and can follow the lead vehicle comfortably with smooth acceleration.</p>
 
 <h3 id="autonomous-driving-in-mixed-traffic-environments">Autonomous Driving in Mixed Traffic Environments</h3>
 
