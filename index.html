@@ -341,7 +341,7 @@
 <ul>
 <li><a href="#normal-driving-behavior">Normal Driving Behavior</a>
 <ul>
-<li><a href="#car-following-behavior">Car Following Behavior</a></li>
+<li><a href="#car-following-behavior">Car-Following Behavior</a></li>
 <li><a href="#lane-change-behavior">Lane-Change Behavior</a></li>
 <li><a href="#cut-in-behavior">Cut-In Behavior</a></li>
 </ul></li>
@@ -357,12 +357,12 @@
 <li><a href="#traffic-flow-modeling-and-simulation">Traffic Flow Modeling and Simulation</a>
 <ul>
 <li><a href="#car-following-model">Car-Following Model</a></li>
-<li><a href="#traffic-simulation-based-on-cellular-automaton-method">TRAFFIC SIMULATION BASED ON CELLULAR AUTOMATON METHOD</a></li>
+<li><a href="#traffic-simulation-based-on-cellular-automaton">Traffic Simulation Based on Cellular Automaton</a></li>
 </ul></li>
 <li><a href="#autonomous-driving">Autonomous Driving</a>
 <ul>
-<li><a href="#autonomous-driving-decision-making">Autonomous Driving Decision-Making</a></li>
-<li><a href="#testing-of-automated-vehicles">Testing of Automated Vehicles</a></li>
+<li><a href="#autonomous-car-following">Autonomous Car-Following</a></li>
+<li><a href="#autonomous-driving-in-mixed-traffic-environments">Autonomous Driving in Mixed Traffic Environments</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -375,7 +375,7 @@
 
 <p>As the first large-scale naturalistic driving study in China, Shanghai Naturalistic Driving Study collected 60 Chinese drivers&rsquo; daily driving data, with a total mileage of 161,055 km. These data provide an unprecedented opportunity for investigating driving behavior in China.</p>
 
-<h4 id="car-following-behavior">Car Following Behavior</h4>
+<h4 id="car-following-behavior">Car-Following Behavior</h4>
 
 <p>Extracted 108,933 car-following events, and investigated the distribution of drivers’ car-following gaps and headways.</p>
 
@@ -448,22 +448,30 @@
 
 <p>Five representative car-following models (Gaxis-Herman-Rothery, Gipps, intelligent driver, full velocity difference, and Wiedemann) were calibrated and validated with 2,100 urban-expressway car-following periods extracted from the 161,055 km of driving data collected in the Shanghai Naturalistic Driving Study. The models were evaluated based on their estimation and prediction capabilities of inter-vehicle spacings. The results showed that the full velocity difference model, with a validation error of 24%, performed best in modeling Chinese drivers’ behavior.</p>
 
-<h3 id="traffic-simulation-based-on-cellular-automaton-method">TRAFFIC SIMULATION BASED ON CELLULAR AUTOMATON METHOD</h3>
+<h3 id="traffic-simulation-based-on-cellular-automaton">Traffic Simulation Based on Cellular Automaton</h3>
 
 <p>In order to evaluate the performance of the keep-right-except-to-pass rule in traffic systems, the cellular automaton method was applied to simulate traffic flows in one-lane, two-lane and three-lane freeways. The results showed that the model can replicated volume-density relationship well.</p>
 
 <h2 id="autonomous-driving">Autonomous Driving</h2>
 
-<h3 id="autonomous-driving-decision-making">Autonomous Driving Decision-Making</h3>
+<h3 id="autonomous-car-following">Autonomous Car-Following</h3>
 
 <p>In Autonomous Car Following by Deep Reinforcement Learning, two types of autonomous car-following strategies were developed based on deep reinforcement learning (RL).</p>
 
 <ul>
 <li><strong>Human-Like Car Following</strong>: in the framework of human-like car following, historical driving data are fed into a simulation environment, where an RL agent learns from trying and interaction, with a reward function signaling how much the agent deviates from the empirical data. Results showed that this new model can reproduce human-like car-following behavior with significantly higher accuracy than traditional car-following models, especially in terms of speed replicating.</li>
-<li><strong>Safe, Efficient, and Comfortable Car Following</strong>: to fulfil the multi-objectives of car following, a reward function reflecting driving safety, efficiency, and comfort was constructed. With this reward function, the RL agent learns to control vehicle speed in a fashion that maximizes cumulative rewards, through trials and errors in the simulation environment. Results show that the model demonstrated the capability of safe, efficient, and comfortable velocity control in that it 1) has small percentages (8%) of dangerous minimum time to collision values (&lt; 5s) than human drivers in the NGSIM data (35%); 2) can maintain efficient and safe headways in the range of 1s to 2s; and 3) can follow the lead vehicle comfortably with smooth acceleration.</li>
+<li><strong>Safe, Efficient, and Comfortable Car Following</strong>: to fulfil the multi-objectives of car following, a reward function reflecting driving safety, efficiency, and comfort was constructed. With this reward function, the RL agent learns to control vehicle speed in a fashion that maximizes cumulative rewards, through trials and errors in the simulation environment. Results showed that the model demonstrated the capability of safe, efficient, and comfortable velocity control in that it 1) has small percentages (8%) of dangerous minimum time to collision values (&lt; 5s) than human drivers in the NGSIM data (35%); 2) can maintain efficient and safe headways in the range of 1s to 2s; and 3) can follow the lead vehicle comfortably with smooth acceleration.</li>
 </ul>
 
-<h3 id="testing-of-automated-vehicles">Testing of Automated Vehicles</h3>
+<h3 id="autonomous-driving-in-mixed-traffic-environments">Autonomous Driving in Mixed Traffic Environments</h3>
+
+<p>Current autonomous driving decision-making algorithms mainly focus on interactions between passenger cars, while the interactions between large vehicles, non motor vehicles and pedestrians are rarely take into account. However, the mixture of different transport modes is just the key feature of Chinese urban traffic. Therefore, the on-going research aims to develop and test autonomous driving algorithms for mixed traffic environments. The following steps will be followed:</p>
+
+<ul>
+<li>Extract typical mixed-traffic driving scenarios from accident database and naturalistic driving database.</li>
+<li>Develop autonomous driving decision-making algorithms that are suitable for mixed-traffic driving scenarios.</li>
+<li>Evaluate the developed algorithms based on a high-fidelity driving simulator.</li>
+</ul>
 
   </div>
   
