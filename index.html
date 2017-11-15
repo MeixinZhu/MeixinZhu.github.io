@@ -365,7 +365,7 @@
 <li><a href="#traffic-flow-modeling-and-simulation">Traffic Flow Modeling and Simulation</a>
 <ul>
 <li><a href="#car-following-model">Car-Following Model</a></li>
-<li><a href="#traffic-simulation-based-on-cellular-automaton">Traffic Simulation Based on Cellular Automaton</a></li>
+<li><a href="#traffic-simulation-based-on-cellular-automata">Traffic Simulation Based on Cellular Automata</a></li>
 </ul></li>
 <li><a href="#autonomous-driving">Autonomous Driving</a>
 <ul>
@@ -392,17 +392,17 @@
 <p>Extracted 108,933 car-following events, and investigated the distribution of drivers’ car-following gaps and headways.</p>
 
 <ul>
-<li>Examined how drivers would adjust their headways due to level of operating speed, visibility, roadway type, and traffic density. (Paper: <a href="https://MeixinZhu.github.io/publication/cota/" target="_blank">Car-following Headways in Different Driving Situations: A Naturalistic Driving Study</a>).</li>
+<li>Examined how drivers would adjust their headways due to the level of operating speed, visibility, roadway type, and traffic density. (Paper: <a href="https://MeixinZhu.github.io/publication/cota/" target="_blank">Car-following Headways in Different Driving Situations: A Naturalistic Driving Study</a>).</li>
 <li>Compared the car-following behavior of Chinese and US drivers on urban expressways, and found that Chinese drivers adopted shorter following gaps than US drivers. (Paper: <a href="https://meixinzhu.github.io/publication/car-following-model/" target="_blank">Calibrating Car-Following Models on Urban Expressways for Chinese Drivers Using Naturalistic Driving Data</a>)</li>
 </ul>
 
 <h4 id="lane-change-behavior">Lane-Change Behavior</h4>
 
-<p>Extracted 17,309 lane-change events, and investigated lane-change frequency, motivations, gazing behavior, and turn-signal usages.</p>
+<p>Extracted 17,309 lane-change events, and investigated the frequency, motivations, gazing behavior, and turn-signal usages for lane-change behavior.</p>
 
 <ul>
 <li>Shanghai drivers averagely performed 0.645 lane changes per kilometer, higher than US drivers (0.224 lane changes per kilometer) (Olsen, 2004).</li>
-<li>It was found that lane-change behavior occurred most frequently (0.82 lane changes per kilometer) on urban arterial roads, compared with urban expressways, freeways, and suburban roads.</li>
+<li>Lane-change behavior occurred most frequently (0.82 lane changes per kilometer) on urban arterial roads, compared with urban expressways, freeways, and suburban roads.</li>
 </ul>
 
 <h4 id="cut-in-behavior">Cut-In Behavior</h4>
@@ -434,7 +434,7 @@
 <ul>
 <li>A total of 943 phone-use events were extracted from 53 drivers’ data, and 3,865 eyes-off-road cases and 3,131 sub-tasks were extracted from those events.</li>
 <li>A hierarchical coding structure for phone-use event is built, and each change in every driver’s visual behavior, manual behavior or subtask was recorded.</li>
-<li>The influences of phone use on longitudinal and lateral driving performance were studied, especially the speed adaptation behavior.</li>
+<li>The influences of phone use on longitudinal and lateral driving performance were studied especially the speed adaptation behavior.</li>
 </ul>
 
 <h2 id="vehicle-active-safety">Vehicle Active Safety</h2>
@@ -448,12 +448,14 @@
 
 <h3 id="evaluating-forward-collision-warning-system">Evaluating Forward Collision Warning System</h3>
 
-<p>In <a href="https://MeixinZhu.github.io/project/sh-nds/" target="_blank">Shanghai Naturalistic Driving Study</a>, five data collecting vehicles were equipped with Mobileye® systems, which include an FCW function. Participants drove the instrumented vehicles for two months, with the Mobileye® system not activated for the first month, but activated for the second month. The impact of the FCW system on drivers’ car-following behaviors was investigated. (Paper: <a href="https://meixinzhu.github.io/publication/fcw-impact/" target="_blank">Impact of a Forward Collision Warning System on Headway and Reaction Time during Car Following</a>)</p>
+<p>The impact of the FCW system on drivers’ car-following behaviors was investigated. (Paper: <a href="https://meixinzhu.github.io/publication/fcw-impact/" target="_blank">Impact of a Forward Collision Warning System on Headway and Reaction Time during Car Following</a>)</p>
 
 <ul>
+<li>In <a href="https://MeixinZhu.github.io/project/sh-nds/" target="_blank">Shanghai Naturalistic Driving Study</a>, five data-collecting vehicles were equipped with Mobileye® systems, which include an FCW function.</li>
+<li>Participants drove the instrumented vehicles for two months, with the Mobileye® system not activated for the first month, but activated for the second month.</li>
 <li>Drivers tended to maintain a longer headway when FCW activated.</li>
-<li>The FCW resulted in a 0.13s decrease of reaction time in daytime driving, and a 0.09s decrease when a following vehicle had higher speed than the lead vehicle.</li>
-<li>The reaction time during car following was affected by relative distance, lead vehicle acceleration, and traffic density.</li>
+<li>The FCW resulted in a 0.13s decrease of reaction time in daytime driving, and a 0.09s decrease when the following vehicle had higher speed than the lead vehicle.</li>
+<li>The reaction time during car following was affected by relative distance, lead-vehicle acceleration, and traffic density.</li>
 </ul>
 
 <h2 id="optimized-road-design">Optimized Road Design</h2>
@@ -472,9 +474,9 @@
 <li>Compared to the Wiedemann model used by VISSIM®, the FVD model is more easily calibrated and demonstrates a higher and more robust performance, justify its suitability to be applied for microscopic traffic simulations in China.</li>
 </ul>
 
-<h3 id="traffic-simulation-based-on-cellular-automaton">Traffic Simulation Based on Cellular Automaton</h3>
+<h3 id="traffic-simulation-based-on-cellular-automata">Traffic Simulation Based on Cellular Automata</h3>
 
-<p>In order to evaluate the performance of the keep-right-except-to-pass rule in traffic systems, the cellular automaton method was applied to simulate traffic flows in one-lane, two-lane and three-lane freeways. The results showed that the model can replicated volume-density relationship well.</p>
+<p>To evaluate the performance of the keep-right-except-to-pass rule in traffic systems, the cellular automaton method was applied to simulate traffic flows in one-lane, two-lane and three-lane freeways. The results showed that the model could replicate volume-density relationship well.</p>
 
 <h2 id="autonomous-driving">Autonomous Driving</h2>
 
@@ -484,25 +486,25 @@
 
 <h4 id="human-like-car-following">Human-Like Car Following</h4>
 
-<p>Historical driving data are fed into a simulation environment, where an RL agent learns from trying and interaction, with a reward function signaling how much the agent deviates from the empirical data. Results showed that this new model can reproduce human-like car-following behavior with significantly higher accuracy than traditional car-following models, especially in terms of speed replicating. (Paper: <a href="https://meixinzhu.github.io/publication/human-like-car-following/" target="_blank">Human-like Autonomous Car-Following Planning by Deep Reinforcement Learning</a>)</p>
+<p>Historical driving data are fed into a simulation environment, where an RL agent learns from trying and interaction, with a reward function signaling how much the agent deviates from the empirical data. Results showed that this new model can reproduce human-like car-following behavior with significantly higher accuracy than traditional car-following models, especially regarding speed replicating. (Paper: <a href="https://meixinzhu.github.io/publication/human-like-car-following/" target="_blank">Human-like Autonomous Car-Following Planning by Deep Reinforcement Learning</a>)</p>
 
 <ul>
-<li>The model has a validation error of 18% on spacing and 5% on speed, which is generally 15 and 30 percentage points less, respectively, than that of traditional car-following models.</li>
+<li>The model has a validation error of 18% on spacing and 5% on speed, which is 15 and 30 percentage points less, respectively, than that of traditional car-following models.</li>
 <li>The model demonstrates good capability of generalization to different driving situations and can adapt to different drivers by continuously learning.</li>
 </ul>
 
 <h4 id="safe-efficient-and-comfortable-car-following">Safe, Efficient, and Comfortable Car Following</h4>
 
-<p>To fulfil the multi-objectives of car following, a reward function reflecting driving safety, efficiency, and comfort was constructed. With this reward function, the RL agent learns to control vehicle speed in a fashion that maximizes cumulative rewards, through trials and errors in the simulation environment. Results showed that the model demonstrated the capability of safe, efficient, and comfortable velocity control. (Paper: <a href="https://meixinzhu.github.io/publication/aided/" target="_blank">Reinforcement Learning based Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</a>)</p>
+<p>To fulfill the multi-objectives of car following, a reward function reflecting driving safety, efficiency, and comfort was constructed. With this reward function, the RL agent learns to control vehicle speed in a fashion that maximizes cumulative rewards, through trials and errors in the simulation environment. Results showed that the model demonstrated the capability of safe, efficient, and comfortable velocity control. (Paper: <a href="https://meixinzhu.github.io/publication/aided/" target="_blank">Reinforcement Learning based Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</a>)</p>
 
 <ul>
 <li>The model had small percentages (8%) of dangerous minimum time to collision values (&lt; 5s) than human drivers in the NGSIM data (35%).</li>
-<li>The model can maintain efficient and safe headways in the range of 1s to 2s, and can follow the lead vehicle comfortably with smooth acceleration.</li>
+<li>The model can maintain efficient and safe headways in the range of 1s to 2s and can follow the lead vehicle comfortably with smooth acceleration.</li>
 </ul>
 
 <h3 id="autonomous-driving-in-mixed-traffic-environments">Autonomous Driving in Mixed Traffic Environments</h3>
 
-<p>Current autonomous driving decision-making algorithms mainly focus on interactions between passenger cars, while the interactions between large vehicles, non motor vehicles, and pedestrians are rarely take into account. However, the mixture of different transport modes is just the key feature of Chinese urban traffic. Therefore, this on-going research aims to develop and test autonomous driving algorithms for mixed traffic environments. The following steps will be followed:</p>
+<p>Current autonomous driving decision-making algorithms mainly focus on interactions between passenger cars, while the interactions between large vehicles, non-motor vehicles, and pedestrians are rarely taken into account. However, the mixture of different transport modes is just the critical feature of Chinese urban traffic. Therefore, this on-going research aims to develop and test autonomous driving algorithms for mixed traffic environments. The following steps will be followed:</p>
 
 <ul>
 <li>Extract typical mixed-traffic driving scenarios from accident database and naturalistic driving database.</li>
