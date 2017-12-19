@@ -1,0 +1,37 @@
++++
+# Date this page was created.
+date = "2017-07-28"
+
+# Project title.
+title = "AlphaDrive: Mastering Driving with Real-World Driving Scenarios"
+
+# Project summary to display on homepage.
+summary = "AlphaDrive is a platform equipped with real-world driving scenarios where intelligent agents can learn to drive by trial and error, trials and errors that number in the billions."
+
+# Optional image to display on homepage (relative to `static/img/` folder).
+image_preview = "drive.jpg"
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["NDS","driving-behavior"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Does the project detail page use math formatting?
+math = false
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = ""
+caption = ""
+
++++
+I am currently working on developing AlphaDrive, a platform equipped with real-world driving scenarios where intelligent agents can learn to drive by trial and error, trials and errors that number in the billions. The platform is comprised of three main modules:
+
+- Driving Scenario Database: containing typical driving scenarios (e.g., car following, lane changing, overtaking, and vehicle-pedestrian conflicts) extracted from naturalistic driving studies or field operation test databases. 
+- Microscopic Traffic Simulator: loading driving scenarios, executing given driving policies and returning their performance indicators.
+- Learning Algorithms: containing different learning algorithms (e.g., reinforcement learning, inverse reinforcement learning) that generate and update driving policies based on performance indicators returned from the driving simulator.
+
+Thus far, longitudinal driving tasks have been successfully learned, and more driving tasks will be added in the future.
+{{< figure src="/img/drive.jpg" title="AlphaDrive" >}} 
