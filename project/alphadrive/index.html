@@ -44,11 +44,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://MeixinZhu.github.io/talk/example-talk/">
+  <link rel="canonical" href="https://MeixinZhu.github.io/project/alphadrive/">
 
   
 
-  <title>Example Talk | Meixin Zhu</title>
+  <title>AlphaDrive: Mastering Driving with Real-World Driving Scenarios | Meixin Zhu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -192,12 +192,13 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/Event">
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
 <div class="article-header">
-  <img src="/img/headers/bubbles-wide.jpg" class="article-banner" itemprop="image">
-  <span class="article-header-caption">My caption 😄</span>
+  <img src="/img/drive.png" class="article-banner" itemprop="image">
+  
 </div>
 
 
@@ -205,45 +206,43 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Example Talk</h1>
-      <span class="pub-authors" itemprop="author">
-        
-      </span>
+      <h1 itemprop="name">AlphaDrive: Mastering Driving with Real-World Driving Scenarios</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Example%20Talk&amp;url=https%3a%2f%2fMeixinZhu.github.io%2ftalk%2fexample-talk%2f"
+         href="https://twitter.com/intent/tweet?text=AlphaDrive%3a%20Mastering%20Driving%20with%20Real-World%20Driving%20Scenarios&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2falphadrive%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fMeixinZhu.github.io%2ftalk%2fexample-talk%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fMeixinZhu.github.io%2fproject%2falphadrive%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fMeixinZhu.github.io%2ftalk%2fexample-talk%2f&amp;title=Example%20Talk"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2falphadrive%2f&amp;title=AlphaDrive%3a%20Mastering%20Driving%20with%20Real-World%20Driving%20Scenarios"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fMeixinZhu.github.io%2ftalk%2fexample-talk%2f&amp;title=Example%20Talk"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2falphadrive%2f&amp;title=AlphaDrive%3a%20Mastering%20Driving%20with%20Real-World%20Driving%20Scenarios"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Example%20Talk&amp;body=https%3a%2f%2fMeixinZhu.github.io%2ftalk%2fexample-talk%2f">
+         href="mailto:?subject=AlphaDrive%3a%20Mastering%20Driving%20with%20Real-World%20Driving%20Scenarios&amp;body=https%3a%2f%2fMeixinZhu.github.io%2fproject%2falphadrive%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -255,106 +254,80 @@
     </div>
 
     
-      <br>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="work-summary">Work Summary</h2>
+
+<ul>
+<li>Collected 60 Chinese drivers’ real-world driving data, with a total mileage of 161,055 km.</li>
+<li>Investigated decision-making mechanisms for essential driving behaviors based on 108,933 car-following events,
+17,309 lane-change events, 7,845 cut-in events, and 3,256 vehicle-pedestrian conflicts.</li>
+<li>Calibrated, validated, and cross-compared five representative car-following models and found that the full velocity
+difference model performed best for Shanghai drivers.</li>
+<li>Investigated the impact of a forward collision warning system on drivers’ car following behavior.</li>
+<li>Developed two autonomous car-following algorithms with deep reinforcement learning: one can perform human-like
+car following; the other is capable of controlling vehicle velocity in a safe, efficient, and comfortable manner.</li>
+</ul>
+
+<h2 id="general-information">General Information</h2>
+
+<p>I am currently working on developing AlphaDrive, a platform equipped with real-world driving scenarios where intelligent agents can learn to drive by trial and error, trials and errors that number in the billions. The platform is comprised of three main modules:</p>
+
+<ul>
+<li>Driving Scenario Database: containing typical driving scenarios (e.g., car following, lane changing, overtaking, and vehicle-pedestrian conflicts) extracted from naturalistic driving studies or field operation test databases.</li>
+<li>Microscopic Traffic Simulator: loading driving scenarios, executing given driving policies and returning their performance indicators.</li>
+<li>Learning Algorithms: containing different learning algorithms (e.g., reinforcement learning, inverse reinforcement learning) that generate and update driving policies based on performance indicators returned from the driving simulator.</li>
+</ul>
+
+<p>Thus far, longitudinal driving tasks have been successfully learned, and more driving tasks will be added in the future.
+
+<figure >
     
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            
-            Jun 1, 2030
-            <div class="talk-time">
-              1:00 PM
-              
-              &mdash; 3:00 PM
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
-          <div class="col-xs-12 col-sm-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Academic Theme Conference
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
+        <img src="/img/drive.jpg" />
     
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">London, United Kingdom</div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
     
-
+    <figcaption>
+        <h4>AlphaDrive</h4>
+        
+    </figcaption>
     
-    <div class="row" style="padding-top: 10px">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
-          <div class="col-xs-12 col-sm-9">
-
-            
+</figure>
+</p>
 
 
+      
+      
+      
 
+      
+        
+        
+        
+        
 
-
-
-
-<a class="btn btn-primary btn-outline" href="/project/deep-learning/">
-  Project
-</a>
-
-
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style">
-      <p>Embed your slides or video here using <a href="https://sourcethemes.com/academic/post/writing-markdown-latex/" target="_blank">shortcodes</a>. Further details can easily be added using <em>Markdown</em> and $\rm \LaTeX$ math code.</p>
+        
+        
+        
+        
+      
 
     </div>
-
   </div>
-</div>
+</article>
 
 <div class="container">
   <nav>
   <ul class="pager">
     
+    <li class="previous"><a href="https://MeixinZhu.github.io/project/faw/"><span
+      aria-hidden="true">&larr;</span> Driving Behavior Research for Intelligent Collision Avoidance Technology</a></li>
+    
 
+    
+    <li class="next"><a href="https://MeixinZhu.github.io/project/sh-nds/">Shanghai Naturalistic Driving Study <span
+      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
@@ -438,13 +411,6 @@
       <script>hljs.initHighlightingOnLoad();</script>
     
 
-    
-    
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-    </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 
