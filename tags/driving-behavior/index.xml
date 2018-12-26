@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>driving-behavior on Meixin Zhu</title>
+    <link>https://MeixinZhu.github.io/tags/driving-behavior/</link>
+    <description>Recent content in driving-behavior on Meixin Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
+    <lastBuildDate>Mon, 08 Jan 2018 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://MeixinZhu.github.io/tags/driving-behavior/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Attending the 97th Annual Meeting of the Transportation Research Board</title>
+      <link>https://MeixinZhu.github.io/post/trb2018/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 -0800</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/post/trb2018/</guid>
+      <description>The Transportation Research Board (TRB) 97th Annual Meeting was held January 7–11, 2018, at the Walter E. Washington Convention Center, in Washington, D.C. The information-packed program attracted more than 13,000 transportation professionals from around the world.
+The meeting program covered all transportation modes, with more than 5,000 presentations in nearly 800 sessions and workshops, addressing topics of interest to policy makers, administrators, practitioners, researchers, and representatives of government, industry, and academic institutions.</description>
+    </item>
+    
+    <item>
+      <title>Organizing Fifth International Symposium on Transportation Safety</title>
+      <link>https://MeixinZhu.github.io/post/safety/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/post/safety/</guid>
+      <description>During September 25 and 26, 2017, the Fifth International Symposium on Transportation Safety was held at Tongji University. The symposium was jointly held by Tongji University, Traffic Management Research Institute of the Ministry of Public Security, and the Research Institute of Highway of the Ministry of Transport. Zhu served as a volunteer for the meeting organizing.   A group photo of attendees   Background Traffic crashes have caused about 1.</description>
+    </item>
+    
+    <item>
+      <title>Shanghai Naturalistic Driving Study</title>
+      <link>https://MeixinZhu.github.io/project/sh-nds/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/sh-nds/</guid>
+      <description>Work Summary  Collected 60 Chinese drivers’ real-world driving data, with a total mileage of 161,055 km. Investigated decision-making mechanisms for essential driving behaviors based on 108,933 car-following events, 17,309 lane-change events, 7,845 cut-in events, and 3,256 vehicle-pedestrian conflicts. Calibrated, validated, and cross-compared five representative car-following models and found that the full velocity difference model performed best for Shanghai drivers. Investigated the impact of a forward collision warning system on drivers’ car following behavior.</description>
+    </item>
+    
+    <item>
+      <title>AlphaDrive: Mastering Driving with Real-World Driving Scenarios</title>
+      <link>https://MeixinZhu.github.io/project/alphadrive/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/alphadrive/</guid>
+      <description>I am currently working on developing AlphaDrive, a platform equipped with real-world driving scenarios where intelligent agents can learn to drive by trial and error, trials and errors that number in the billions. The platform is comprised of three main modules:
+ Driving Scenario Database: containing typical driving scenarios (e.g., car following, lane changing, overtaking, and vehicle-pedestrian conflicts) extracted from naturalistic driving studies or field operation test databases. Microscopic Traffic Simulator: loading driving scenarios, executing given driving policies and returning their performance indicators.</description>
+    </item>
+    
+    <item>
+      <title>Attending the 96th Annual Meeting of the Transportation Research Board</title>
+      <link>https://MeixinZhu.github.io/post/trb2017/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 -0800</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/post/trb2017/</guid>
+      <description>The 96th Annual Meeting of the Transportation Research Board (TRB) was held on January 8 – 12 2017, at the Walter E. Washington Convention Center, in Washington, D.C. – USA. The spotlight theme for the 2017 TRB Annual Meeting is Transportation Innovation: Leading the Way in an Era of Rapid Change. The program attracted more than 12,000 transportation professionals from around the world to Washington, D.C.
+Meixin Zhu gave an oral presentation on car-following model calibration and validation.</description>
+    </item>
+    
+    <item>
+      <title>Attending the 5th International Symposium on Naturalistic Driving Research in Blacksburg, Virginia</title>
+      <link>https://MeixinZhu.github.io/post/nds-symposium/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/post/nds-symposium/</guid>
+      <description>The National Surface Transportation Safety Center for Excellence (NSTSCE) at Virginia Tech Transportation Institute (VTTI) hosted the Fifth International Symposium on Naturalistic Driving Research at The Inn at Virginia Tech and Skelton Conference Center in Blacksburg, Virginia on August 30-31, 2016, with the Motorcycle Research and Technology Workshop and Women in Transportation Seminar – The Future of Transportation following on September 1.
+The symposium provided researchers and practitioners with an overview of international naturalistic driving studies, a method designed to track driver behavior in real-time.</description>
+    </item>
+    
+    <item>
+      <title>Driving Behavior Research for Intelligent Collision Avoidance Technology</title>
+      <link>https://MeixinZhu.github.io/project/faw/</link>
+      <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/faw/</guid>
+      <description>Work Summary  Examined the effects of situational urgency on drivers’ collision avoidance behaviors using Tongji University&amp;rsquo;s eight-degree-of-freedom driving simulator. Developed a kinematic-based forward collision warning (FCW) algorithm that is compatible with drivers’ risk perceptions and behavioral responses. Implemented the proposed FCW algorithm in Tongji University driving simulator, and evaluated the system&amp;rsquo;s performance, warning timing, and safety benefits.  Introduction Driving Behavior Research for Intelligent Collision Avoidance Technology is a driving simulator study jointly conducted by Tongji University and China First Automobile Work (FAW) Corporation (one of the largest automobile companies in China).</description>
+    </item>
+    
+    <item>
+      <title>Optimized Design for Combined Road Alignment</title>
+      <link>https://MeixinZhu.github.io/project/design/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/design/</guid>
+      <description>Combined horizontal and vertical alignments are frequently used in mountainous freeways in China; however, design guidelines that consider the safety impact of combined alignments are not currently available. This project aims to estimate the effects of combined alignments on driving behavior (e.g., speed and lateral acceleration) and safety performance (crash surrogate measures like lane departure events and emergency braking events) using a driving simulator and field data. The results will assist engineers to design safer mountainous freeways.</description>
+    </item>
+    
+  </channel>
+</rss>

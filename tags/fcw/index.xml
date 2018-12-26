@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FCW on Meixin Zhu</title>
+    <link>https://MeixinZhu.github.io/tags/fcw/</link>
+    <description>Recent content in FCW on Meixin Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
+    <lastBuildDate>Sun, 28 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://MeixinZhu.github.io/tags/fcw/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Driving Behavior Research for Intelligent Collision Avoidance Technology</title>
+      <link>https://MeixinZhu.github.io/project/faw/</link>
+      <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/faw/</guid>
+      <description>Work Summary  Examined the effects of situational urgency on drivers’ collision avoidance behaviors using Tongji University&amp;rsquo;s eight-degree-of-freedom driving simulator. Developed a kinematic-based forward collision warning (FCW) algorithm that is compatible with drivers’ risk perceptions and behavioral responses. Implemented the proposed FCW algorithm in Tongji University driving simulator, and evaluated the system&amp;rsquo;s performance, warning timing, and safety benefits.  Introduction Driving Behavior Research for Intelligent Collision Avoidance Technology is a driving simulator study jointly conducted by Tongji University and China First Automobile Work (FAW) Corporation (one of the largest automobile companies in China).</description>
+    </item>
+    
+  </channel>
+</rss>

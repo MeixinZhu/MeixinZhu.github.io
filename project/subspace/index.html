@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="generator" content="Hugo 0.53" />
   <meta name="author" content="Meixin Zhu">
   <meta name="description" content="Master Candidate in Communication and Transportation Engineering">
 
@@ -264,17 +264,10 @@
 <h2 id="clustering-of-linear-subspaces">Clustering of Linear Subspaces</h2>
 
 <p>It is a relatively simple problem to cluster the data sampled from several linear subspaces. We solved this kind of problem by applying Generalized Principal Component Analysis (GPCA) with voting mechanism. Figure 1-a shows a set of sample points in R^3 drawn from a union of three subspace: two lines and a plane. The clustering results are shown in Figure 1-b.
- 
-<figure >
-    
-        <img src="/img/linear%20subspace.jpg" />
-    
-    
-    <figcaption>
-        <h4>Demonstration of clustering of linear subspace</h4>
-        
-    </figcaption>
-    
+ <figure>
+    <img src="/img/linear%20subspace.jpg"/> <figcaption>
+            <h4>Demonstration of clustering of linear subspace</h4>
+        </figcaption>
 </figure>
 </p>
 
@@ -287,34 +280,20 @@
 <p>Considering that GPCA method is vulnerable to data noise, Sparse Subspace Clustering (SSC) was adopted to solve motion segmentation.</p>
 
 <p>SSC is based on the fact that each point in a union of subspaces has a Sparse Representation （SR） with respect to a dictionary formed by all other data points. In general, finding such a SR is NP-hard. Our key contribution is to show that, under mild assumptions, the SR can be obtained ’exactly’ by using an optimization technique. The segmentation of the data is obtained by applying spectral clustering to a similarity matrix built from this SR. The result is shown in the following figure.
-
-<figure >
-    
-        <img src="/img/motion%20seg.png" />
-    
-    
-    <figcaption>
-        <h4>Demonstration of motion segmentation: first row: original feature points; second row: segmented feature points</h4>
-        
-    </figcaption>
-    
+<figure>
+    <img src="/img/motion%20seg.png"/> <figcaption>
+            <h4>Demonstration of motion segmentation: first row: original feature points; second row: segmented feature points</h4>
+        </figcaption>
 </figure>
 </p>
 
 <h2 id="manifold-clustering">Manifold Clustering</h2>
 
 <p>Additionally, we have also investigated clustering of non-linear subspaces, i.e., manifold clustering. The results are shown in the following figure.
-
-<figure >
-    
-        <img src="/img/motion.png" />
-    
-    
-    <figcaption>
-        <h4>Manifold clustering: first row: original data; second row: clustered data</h4>
-        
-    </figcaption>
-    
+<figure>
+    <img src="/img/motion.png"/> <figcaption>
+            <h4>Manifold clustering: first row: original data; second row: clustered data</h4>
+        </figcaption>
 </figure>
 </p>
 

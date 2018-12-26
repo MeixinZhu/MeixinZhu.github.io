@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reinforcement-learning on Meixin Zhu</title>
+    <link>https://MeixinZhu.github.io/tags/reinforcement-learning/</link>
+    <description>Recent content in reinforcement-learning on Meixin Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
+    <lastBuildDate>Sat, 27 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://MeixinZhu.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autonomous Car Following by Deep Reinforcement Learning</title>
+      <link>https://MeixinZhu.github.io/project/rlcar/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/rlcar/</guid>
+      <description>This on-going project aims to develop autonomous car-following strategies based on deep Reinforcement Learning (deep RL).
+Deep Reinforcement Learning Deep RL is a field that seeks to combine the advances in deep neural networks with reinforcement learning algorithms to create agents capable of acting intelligently in complex environments, and exciting breakthroughs have been witnessed, like deep Q-network and AlphaGo.
+Deep reinforcement learning can achieve better generalization capability because it learns decision-making mechanisms from training data rather than parameter estimation through fitting the data.</description>
+    </item>
+    
+    <item>
+      <title>Human-Like Driving by Inverse Reinforcement Learning</title>
+      <link>https://MeixinZhu.github.io/project/irl/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/irl/</guid>
+      <description>This on-going project is inspired by Levine et al. (2012). It aims to imitate human driving patterns. The rationale is that as long as other agents are human, autonomous vehicles should adopt “human-like” driving skills.
+The assumption is that drivers act based on a utility (reward) function, which represents the preference of the driver and elicits the driving behavior. The role of inverse reinforcement learning (IRL) is to infer or discover the latent utility function from driver (expert) demonstrations and thus generalize the driving policy to unobserved situations.</description>
+    </item>
+    
+  </channel>
+</rss>

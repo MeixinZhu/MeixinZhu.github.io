@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 on Meixin Zhu</title>
+    <link>https://MeixinZhu.github.io/publication_types/3/</link>
+    <description>Recent content in 3 on Meixin Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
+    <lastBuildDate>Tue, 31 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://MeixinZhu.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Human-Like Autonomous Car-Following Planning by Deep Reinforcement Learning</title>
+      <link>https://MeixinZhu.github.io/publication/partcjhuman/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/partcjhuman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</title>
+      <link>https://MeixinZhu.github.io/publication/aided/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/aided/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact on Car Following Behavior of A Forward Collision Warning System with Headway Monitoring</title>
+      <link>https://MeixinZhu.github.io/publication/partcimpact/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/partcimpact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Car-Following Behavior on Urban Freeways in Shanghai: A Naturalistic Driving Study</title>
+      <link>https://MeixinZhu.github.io/publication/partcmodel/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/partcmodel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

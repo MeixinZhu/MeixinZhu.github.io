@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>autonomous-driving on Meixin Zhu</title>
+    <link>https://MeixinZhu.github.io/tags/autonomous-driving/</link>
+    <description>Recent content in autonomous-driving on Meixin Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
+    <lastBuildDate>Sun, 28 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://MeixinZhu.github.io/tags/autonomous-driving/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Udacity Self-Driving Car Engineer Nanodegree</title>
+      <link>https://MeixinZhu.github.io/project/nano/</link>
+      <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/nano/</guid>
+      <description>Udacity, partnered with the best companies in the autonomous driving field, offered a Self-Driving Car Engineer Nanodegree Program. I have actively participated in the program and here are the projects I have finished.   Interesting projects in Udacity Self-Driving Car Engineer Nanodegree Program   In this program, I have grasped essential knowledge in deep learning, computer vision, sensor fusion, localization, controllers, vehicle kinematics, automotive hardware for autonomous driving.</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Car Following by Deep Reinforcement Learning</title>
+      <link>https://MeixinZhu.github.io/project/rlcar/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/rlcar/</guid>
+      <description>This on-going project aims to develop autonomous car-following strategies based on deep Reinforcement Learning (deep RL).
+Deep Reinforcement Learning Deep RL is a field that seeks to combine the advances in deep neural networks with reinforcement learning algorithms to create agents capable of acting intelligently in complex environments, and exciting breakthroughs have been witnessed, like deep Q-network and AlphaGo.
+Deep reinforcement learning can achieve better generalization capability because it learns decision-making mechanisms from training data rather than parameter estimation through fitting the data.</description>
+    </item>
+    
+    <item>
+      <title>End-to-End Learning for Steering Control</title>
+      <link>https://MeixinZhu.github.io/project/steer/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/steer/</guid>
+      <description>This on-going project is inspired by NVIDIA&amp;rsquo;s research (1) and MIT 6.S094&amp;rsquo;s DeepTesla project (2). It aims to learn human drivers&amp;rsquo; strategy in steering control. The learned model can map raw pixels from a single front-facing camera directly to steering commands.
+The training data includes image frames from a front-facing camera and the corresponding steering angles from human drivers. I started with the model described in Nvidia paper (1) and the following figure shows the initial results.</description>
+    </item>
+    
+    <item>
+      <title>Human-Like Driving by Inverse Reinforcement Learning</title>
+      <link>https://MeixinZhu.github.io/project/irl/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/irl/</guid>
+      <description>This on-going project is inspired by Levine et al. (2012). It aims to imitate human driving patterns. The rationale is that as long as other agents are human, autonomous vehicles should adopt “human-like” driving skills.
+The assumption is that drivers act based on a utility (reward) function, which represents the preference of the driver and elicits the driving behavior. The role of inverse reinforcement learning (IRL) is to infer or discover the latent utility function from driver (expert) demonstrations and thus generalize the driving policy to unobserved situations.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>traffic-simulation on Meixin Zhu</title>
+    <link>https://MeixinZhu.github.io/tags/traffic-simulation/</link>
+    <description>Recent content in traffic-simulation on Meixin Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
+    <lastBuildDate>Sun, 21 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://MeixinZhu.github.io/tags/traffic-simulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Traffic Simulation based on Cellular Automaton Method</title>
+      <link>https://MeixinZhu.github.io/project/cell/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/cell/</guid>
+      <description>This project aimed to model the keep-right-except-to-pass rule using Cellular Automata (CA).
+Cellular automaton system is a discrete dynamic system consisting of a regular grid of cells, each in one of a finite number of states. And the state of each cell is updated every single discrete time step according to the updating rules, which are determined by the current state of the cell and the states of its neighbor cells.</description>
+    </item>
+    
+  </channel>
+</rss>

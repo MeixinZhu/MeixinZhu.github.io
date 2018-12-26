@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer-vision on Meixin Zhu</title>
+    <link>https://MeixinZhu.github.io/tags/computer-vision/</link>
+    <description>Recent content in computer-vision on Meixin Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
+    <lastBuildDate>Sun, 28 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://MeixinZhu.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Udacity Self-Driving Car Engineer Nanodegree</title>
+      <link>https://MeixinZhu.github.io/project/nano/</link>
+      <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/nano/</guid>
+      <description>Udacity, partnered with the best companies in the autonomous driving field, offered a Self-Driving Car Engineer Nanodegree Program. I have actively participated in the program and here are the projects I have finished.   Interesting projects in Udacity Self-Driving Car Engineer Nanodegree Program   In this program, I have grasped essential knowledge in deep learning, computer vision, sensor fusion, localization, controllers, vehicle kinematics, automotive hardware for autonomous driving.</description>
+    </item>
+    
+    <item>
+      <title>Motion Segmentation Based on Subspace Clustering</title>
+      <link>https://MeixinZhu.github.io/project/subspace/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/subspace/</guid>
+      <description>This project aimed to segment different moving objects in a video sequence, using subspace clustering methods.
+Subspace Clustering Introduction Clustering refers to techniques that find a low-dimensional representation of a high-dimensional data set. Conventional techniques, such as principal component analysis (PCA), assume that the data are drawn from a single low-dimensional subspace of a high-dimensional space. Such approaches have found widespread applications in many fields, e.g., pattern recognition, data compression, image processing, and bioinformatics.</description>
+    </item>
+    
+    <item>
+      <title>Traffic Parameter Analysis Platform based on Unmanned Aerial Vehicle</title>
+      <link>https://MeixinZhu.github.io/project/uav/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/uav/</guid>
+      <description>This project was for the 2014 National Competition of Transport Science and Technology for Students in China. It aimed to extract real-time traffic flow parameters, including volume, density, and intersection delay, etc., based on videos captured by an unmanned aerial vehicle (UAV).
+Video Capturing Equipment The project used a quad-rotor unmanned aerial vehicle to capture real-time traffic flow video. Its flight height ranged from 60 to 80 meters.   A quad-rotor unmanned aerial vehicle used to capture real-time traffic flow video   Video Stabilization A video stabilization method based on image-feature extraction and matching was developed to address the jitters produced by the UAV.</description>
+    </item>
+    
+    <item>
+      <title>Traffic Simulation based on Cellular Automaton Method</title>
+      <link>https://MeixinZhu.github.io/project/cell/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/project/cell/</guid>
+      <description>This project aimed to model the keep-right-except-to-pass rule using Cellular Automata (CA).
+Cellular automaton system is a discrete dynamic system consisting of a regular grid of cells, each in one of a finite number of states. And the state of each cell is updated every single discrete time step according to the updating rules, which are determined by the current state of the cell and the states of its neighbor cells.</description>
+    </item>
+    
+  </channel>
+</rss>

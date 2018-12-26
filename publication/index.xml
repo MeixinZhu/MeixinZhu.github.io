@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Meixin Zhu</title>
+    <link>https://MeixinZhu.github.io/publication/</link>
+    <description>Recent content in Publications on Meixin Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://MeixinZhu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Human-Like Autonomous Car-Following Planning by Deep Reinforcement Learning</title>
+      <link>https://MeixinZhu.github.io/publication/partcjhuman/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/partcjhuman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-like Autonomous Car-Following Planning by Deep Reinforcement Learning</title>
+      <link>https://MeixinZhu.github.io/publication/human-like-car-following/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/human-like-car-following/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</title>
+      <link>https://MeixinZhu.github.io/publication/aided/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/aided/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Exploration of Cut-In Behavior and Gap Acceptance Using Shanghai Naturalistic Driving Data</title>
+      <link>https://MeixinZhu.github.io/publication/cut-in/</link>
+      <pubDate>Sat, 21 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/cut-in/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact on Car Following Behavior of A Forward Collision Warning System with Headway Monitoring</title>
+      <link>https://MeixinZhu.github.io/publication/partcimpact/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/partcimpact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calibrating and Validating Car-Following Models on Urban Expressways for Chinese Drivers Using Naturalistic Driving Data</title>
+      <link>https://MeixinZhu.github.io/publication/highway-journal/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/highway-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Car-Following Behavior on Urban Freeways in Shanghai: A Naturalistic Driving Study</title>
+      <link>https://MeixinZhu.github.io/publication/partcmodel/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/partcmodel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calibrating Car-Following Models on Urban Expressways for Chinese Drivers Using Naturalistic Driving Data</title>
+      <link>https://MeixinZhu.github.io/publication/car-following-model/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/car-following-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dimension Reduction and Multivariate Analysis of Variance for Drivers’ Forward Collision Avoidance Behavior Characteristics</title>
+      <link>https://MeixinZhu.github.io/publication/pca/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/pca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impacts of Collision Warning System on Car following Behavior Based on Naturalistic Driving Data</title>
+      <link>https://MeixinZhu.github.io/publication/impact-tongji/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/impact-tongji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impacts of Situational Urgency on Drivers’ Collision Avoidance Behaviors</title>
+      <link>https://MeixinZhu.github.io/publication/urgency/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/urgency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drivers’ Rear End Collision Avoidance Behaviors under Different Levels of Situational Urgency</title>
+      <link>https://MeixinZhu.github.io/publication/collision-avoidance/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/collision-avoidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Car-following Headways in Different Driving Situations: A Naturalistic Driving Study in China</title>
+      <link>https://MeixinZhu.github.io/publication/ndsr/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/ndsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of a kinematic-based forward collision warning algorithm using an advanced driving simulator</title>
+      <link>https://MeixinZhu.github.io/publication/fcw-algorithm/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/fcw-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact of a Forward Collision Warning System on Headway and Reaction Time during Car Following</title>
+      <link>https://MeixinZhu.github.io/publication/fcw-impact/</link>
+      <pubDate>Sat, 09 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/fcw-impact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Car-following Headways in Different Driving Situations: A Naturalistic Driving Study</title>
+      <link>https://MeixinZhu.github.io/publication/cota/</link>
+      <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/cota/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

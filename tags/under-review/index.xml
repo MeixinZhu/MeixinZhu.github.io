@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>under-review on Meixin Zhu</title>
+    <link>https://MeixinZhu.github.io/tags/under-review/</link>
+    <description>Recent content in under-review on Meixin Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
+    <lastBuildDate>Tue, 24 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://MeixinZhu.github.io/tags/under-review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</title>
+      <link>https://MeixinZhu.github.io/publication/aided/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/aided/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
