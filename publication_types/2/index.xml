@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Meixin Zhu</copyright>
-    <lastBuildDate>Fri, 06 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://MeixinZhu.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Human-Like Autonomous Car-Following Planning by Deep Reinforcement Learning</title>
+      <link>https://MeixinZhu.github.io/publication/partcjhuman/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/partcjhuman/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Calibrating and Validating Car-Following Models on Urban Expressways for Chinese Drivers Using Naturalistic Driving Data</title>
