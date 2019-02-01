@@ -380,9 +380,8 @@
     
 
     <div class="col-md-12">
-      <a href="https://MeixinZhu.github.io/publication/human-like-car-following/">
-        <img src="/img/car-following.png" class="pub-banner"
-             itemprop="image">
+      <a href="https://MeixinZhu.github.io/publication/aided/">
+        <img src="/img/velocity.png" class="pub-banner" itemprop="image">
       </a>
     </div>
     <div class="col-md-12">
@@ -390,23 +389,23 @@
     
 
       <h3 class="article-title" itemprop="name">
-        <a href="https://MeixinZhu.github.io/publication/human-like-car-following/" itemprop="url">Human-like Autonomous Car-Following Planning by Deep Reinforcement Learning</a>
+        <a href="https://MeixinZhu.github.io/publication/aided/" itemprop="url">Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</a>
       </h3>
 
       <div class="pub-abstract" itemprop="text">
         
-        This study uses the technique of deep reinforcement learning to model drivers’ car following behavior. Two thousand car-following periods extracted from the Shanghai Naturalistic Driving Study were used to train the proposed model and compare its performance with that of four traditional car-following models. The proposed model can reproduce human-like car-following behavior with significantly higher accuracy than traditional car-following models, especially in terms of speed replicating. Moreover, the model demonstrates good capability of generalization to different driving situations and can adapt to different drivers by continuously learning.
+        A model used for velocity control during car following was proposed based on deep reinforcement learning (RL). A total of 1,341 car-following events extracted from the public Next Generation Simulation (NGSIM) dataset were used to train the model. Results show that the model demonstrated the capability of safe, efficient, and comfortable velocity control in that it 1) has small percentages (8%) of dangerous minimum time to collision values (&lt; 5s) than human drivers in the NGSIM data (35%); 2) can maintain efficient and safe headways in the range of 1s to 2s; and 3) can follow the lead vehicle comfortably with smooth acceleration.
         
       </div>
 
       <div class="pub-authors" itemprop="author">
         
-        Meixin Zhu, Xuesong Wang, Yinhai Wang
+        Meixin Zhu, Yinhai Wang, Jingyun Hu, Xuesong Wang, Ruimin Ke
         
       </div>
 
       <div class="pub-publication">
-        Presentation at the 97th TRB Annual Meeting,&nbsp;2017.
+        IEEE Transactions on Intelligent Transportation Systems, under the first round review,&nbsp;2019.
       </div>
 
       <div class="pub-links">
@@ -421,10 +420,6 @@
 
 
 
-
-<a class="btn btn-primary btn-outline btn-xs" href="/project/sh-nds/">
-  Project
-</a>
 
 <a class="btn btn-primary btn-outline btn-xs" href="/project/rlcar/">
   Project
@@ -452,32 +447,27 @@
     
 
     <div class="col-md-12">
-      <a href="https://MeixinZhu.github.io/publication/aided/">
-        <img src="/img/velocity.png" class="pub-banner" itemprop="image">
-      </a>
-    </div>
-    <div class="col-md-12">
 
     
 
       <h3 class="article-title" itemprop="name">
-        <a href="https://MeixinZhu.github.io/publication/aided/" itemprop="url">Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</a>
+        <a href="https://MeixinZhu.github.io/publication/partcjhuman/" itemprop="url">Human-Like Autonomous Car-Following Planning by Deep Reinforcement Learning</a>
       </h3>
 
       <div class="pub-abstract" itemprop="text">
         
-        A model used for velocity control during car following was proposed based on deep reinforcement learning (RL). A total of 1,341 car-following events extracted from the public Next Generation Simulation (NGSIM) dataset were used to train the model. Results show that the model demonstrated the capability of safe, efficient, and comfortable velocity control in that it 1) has small percentages (8%) of dangerous minimum time to collision values (&lt; 5s) than human drivers in the NGSIM data (35%); 2) can maintain efficient and safe headways in the range of 1s to 2s; and 3) can follow the lead vehicle comfortably with smooth acceleration.
+        This study proposes a framework for human-like autonomous car-following planning based on deep reinforcement learning (RL). In the framework, historical driving data are fed into a simulation environment, where an RL agent learns from trying and interaction, with a reward function signaling how much the agent deviates from the empirical data. An optimal policy (car-following model) that maps from speed, relative speed, and spacing to following-vehicle acceleration in a human-like way is finally obtained, and can be continuously updated when more data are fed in. Two thousand car-following periods extracted from the Shanghai Naturalistic Driving Study were used to train the model and compare its performance with that of four traditional car-following models. Results show that this new model can reproduce human-like car-following behavior with significantly higher accuracy than traditional car-following models, especially in terms of speed replicating. Specifically, the model has a validation error of 18% on spacing and 5% on speed, which is generally 15 and 30 percentage points less, respectively, than that of traditional car-following models. Moreover, the model demonstrates good capability of generalization to different driving situations and can adapt to different drivers by continuously learning. These results can contribute to the development of human-like autonomous driving algorithms. Moreover, this study demonstrates that data-driven modeling and reinforcement learning methodology can contribute to the development of traffic-flow models and offer deeper insight into driver behavior.
         
       </div>
 
       <div class="pub-authors" itemprop="author">
         
-        Meixin Zhu, Xuesong Wang
+        Meixin Zhu, Xuesong Wang, Yinhai Wang
         
       </div>
 
       <div class="pub-publication">
-        Computer-Aided Civil and Infrastructure Engineering, under the first round review,&nbsp;2017.
+        Transportation Research Part C: Emerging Technologies,&nbsp;2018.
       </div>
 
       <div class="pub-links">
@@ -493,7 +483,7 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="/project/rlcar/">
+<a class="btn btn-primary btn-outline btn-xs" href="/project/sh-nds/">
   Project
 </a>
 
@@ -845,9 +835,43 @@
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
   <span itemprop="author">
+    Meixin Zhu, Yinhai Wang, Jingyun Hu, Xuesong Wang, Ruimin Ke</span>.
+  <a href="https://MeixinZhu.github.io/publication/aided/" itemprop="name">Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</a>.
+  IEEE Transactions on Intelligent Transportation Systems, under the first round review,&nbsp;2019.
+  <p>
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/rlcar/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
     Meixin Zhu, Xuesong Wang, Yinhai Wang</span>.
   <a href="https://MeixinZhu.github.io/publication/partcjhuman/" itemprop="name">Human-Like Autonomous Car-Following Planning by Deep Reinforcement Learning</a>.
-  Transportation Research Part C: Emerging Technologies,&nbsp;2017.
+  Transportation Research Part C: Emerging Technologies,&nbsp;2018.
   <p>
 
 
@@ -897,40 +921,6 @@
 <a class="btn btn-primary btn-outline btn-xs" href="/project/sh-nds/">
   Project
 </a>
-
-<a class="btn btn-primary btn-outline btn-xs" href="/project/rlcar/">
-  Project
-</a>
-
-
-
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Meixin Zhu, Xuesong Wang</span>.
-  <a href="https://MeixinZhu.github.io/publication/aided/" itemprop="name">Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</a>.
-  Computer-Aided Civil and Infrastructure Engineering, under the first round review,&nbsp;2017.
-  <p>
-
-
-
-
-
-
-
-
-
-
 
 <a class="btn btn-primary btn-outline btn-xs" href="/project/rlcar/">
   Project
