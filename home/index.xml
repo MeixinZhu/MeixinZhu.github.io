@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Meixin Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020 Meixin Zhu</copyright>
+    <copyright>&amp;copy; 2022 Meixin Zhu</copyright>
     <lastBuildDate>Tue, 24 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://MeixinZhu.github.io/home/index.xml" rel="self" type="application/rss+xml" />
@@ -18,43 +18,7 @@
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://MeixinZhu.github.io/home/about/</guid>
-      <description>About I am a phd student in intelligent transportation at the University of Washington. I also serve as a research assistant in Smart Transportation Applications and Research Laboratory (STAR Lab) at the University of Washington, advised by Prof. Yinhai Wang. Before joining STAR Lab, I served as a research assistant in Tongji&amp;rsquo;s Traffic Safety Research Group, advised by Prof. Xuesong Wang from 2014 to 2018. I worked as a research intern at the Oak Ridge National Laboratory under the supervision of Prof.</description>
-    </item>
-    
-    <item>
-      <title>Selected Publications</title>
-      <link>https://MeixinZhu.github.io/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/home/publications_selected/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://MeixinZhu.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/home/publications/</guid>
-      <description>For a most recent publication list, please refer to my CV.</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://MeixinZhu.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>https://MeixinZhu.github.io/home/research/</link>
-      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/home/research/</guid>
-      <description>Table of Contents    Driving Behavior  Normal Driving Behavior  Car-Following Behavior Lane-Change Behavior Cut-In Behavior  Collision Avoidance Behavior Distracted Driving  Vehicle Active Safety  Developing Forward Collision Warning System Evaluating Forward Collision Warning System  Optimized Road Design Traffic Flow Modeling and Simulation  Car-Following Model Traffic Simulation Based on Cellular Automata  Autonomous Driving  Autonomous Car-Following  Human-Like Car Following Safe, Efficient, and Comfortable Car Following  Autonomous Driving in Mixed Traffic Environments     Driving Behavior Normal Driving Behavior Shanghai Naturalistic Driving Study collected 60 Chinese drivers&amp;rsquo; daily driving data, with a total mileage of 161,055 km.</description>
+      <description>About I am a phd student in intelligent transportation at the University of Washington. I am also pursuing a master’s degree in Computer Science at Georgia Institute of Technology with a specialization in computational perception &amp;amp; robotics. I serve a research assistant in Smart Transportation Applications and Research Laboratory (STAR Lab) at the University of Washington, advised by Prof. Yinhai Wang. Before joining STAR Lab, I served as a research assistant in Tongji&amp;rsquo;s Traffic Safety Research Group, advised by Prof.</description>
     </item>
     
     <item>
@@ -64,15 +28,6 @@
       
       <guid>https://MeixinZhu.github.io/home/teaching/</guid>
       <description>Slected Awards and Scholarships  National Graduate Scholarship (twice), Ministry of Education, China. Oct 2017, Oct 2016 Outstanding Student Award, Tongji University. Oct 2016 China Post-Graduate Mathematical Contest in Modeling, Second Prize. Sep 2016 &amp;ldquo;Inspirational Star&amp;rdquo;, Tongji University. Jun 2015 Volvo Group Scholarship, Volvo Group. Dec 2014 Excellent Student Scholarship, Tongji University. Nov 2014 National Competition of Transport Science and Technology for Students, Second Prize. May 2014 Mathematical Contest in Modeling, Honorable Mention.</description>
-    </item>
-    
-    <item>
-      <title>Tags</title>
-      <link>https://MeixinZhu.github.io/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/home/tags/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -99,6 +54,51 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://MeixinZhu.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://MeixinZhu.github.io/home/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://MeixinZhu.github.io/home/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://MeixinZhu.github.io/home/publications_selected/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://MeixinZhu.github.io/home/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/home/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://MeixinZhu.github.io/home/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/home/tags/</guid>
       <description></description>
     </item>
     
