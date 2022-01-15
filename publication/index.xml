@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Optimizing Signal Timing Control for Large Urban Traffic Networks Using an Adaptive Linear Quadratic Regulator Control Strategy</title>
+      <link>https://MeixinZhu.github.io/publication/its_lqr/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/its_lqr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Impact on Car Following Behavior of A Forward Collision Warning System with Headway Monitoring</title>
       <link>https://MeixinZhu.github.io/publication/partcimpact/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
@@ -22,7 +31,16 @@
     </item>
     
     <item>
-      <title>Velocity Control for Autonomous Driving with Multi-Objectives: Safety, Efficiency, and Comfort</title>
+      <title>Monitoring Public Transit Ridership Flow by Passively Sensing Wi-Fi and Bluetooth Mobile Devices</title>
+      <link>https://MeixinZhu.github.io/publication/iot_public/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/publication/iot_public/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safe, Efficient, and Comfortable Velocity Control based on Reinforcement Learning for Autonomous Driving</title>
       <link>https://MeixinZhu.github.io/publication/aided/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       
