@@ -22,12 +22,39 @@
     </item>
     
     <item>
-      <title>Awards</title>
-      <link>https://MeixinZhu.github.io/home/teaching/</link>
+      <title> </title>
+      <link>https://MeixinZhu.github.io/home/news/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://MeixinZhu.github.io/home/teaching/</guid>
-      <description>Slected Awards and Scholarships  National Graduate Scholarship (twice), Ministry of Education, China. Oct 2017, Oct 2016 Outstanding Student Award, Tongji University. Oct 2016 China Post-Graduate Mathematical Contest in Modeling, Second Prize. Sep 2016 &amp;ldquo;Inspirational Star&amp;rdquo;, Tongji University. Jun 2015 Volvo Group Scholarship, Volvo Group. Dec 2014 Excellent Student Scholarship, Tongji University. Nov 2014 National Competition of Transport Science and Technology for Students, Second Prize. May 2014 Mathematical Contest in Modeling, Honorable Mention.</description>
+      <guid>https://MeixinZhu.github.io/home/news/</guid>
+      <description>News  Jan 2022: I gave a seminar at the Hong Kong University of Science and Technology (GZ) on autonomous car following. Jan 2022: Our team won the 2nd place for the TRANSFOR22 Data Competition hosted by the Transportation Research Board (TRB) Committee on Artificial Intelligence and Advanced Computing Applications (AED50). Apr 2021: Wining Award, 2021 Digital China Innovation Contest, Smart Transportation-Collision Detection based on Big Data of Internet of Vehicles.</description>
+    </item>
+    
+    <item>
+      <title>Featured Publications</title>
+      <link>https://MeixinZhu.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://MeixinZhu.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Awards</title>
+      <link>https://MeixinZhu.github.io/home/awards/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://MeixinZhu.github.io/home/awards/</guid>
+      <description>Slected Awards and Scholarships  2nd Place, Transportation Forecasting Competition (TRANSFOR 22), Transportation Research Board (TRB) Committee on Artificial Intelligence and Advanced Computing Applications (AED50), Jan 2022 Graduate Student Travel Award, PacTrans. 2020, 2022 Most Cited Paper, Transportation Research Part C: Emerging Technologies. 2020 Wining Award, 2021 Digital China Innovation Contest. Smart Transportation-Collision Detection based on Big Data of Internet of Vehicles. 2021 2nd Place, Poster Competition of 2020 PacTrans Student Transportation Conference.</description>
     </item>
     
     <item>
@@ -59,28 +86,10 @@
     
     <item>
       <title></title>
-      <link>https://MeixinZhu.github.io/home/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://MeixinZhu.github.io/home/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://MeixinZhu.github.io/home/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://MeixinZhu.github.io/home/publications_selected/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
