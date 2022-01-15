@@ -48,7 +48,7 @@
 
   
 
-  <title>Motion Segmentation Based on Subspace Clustering | Meixin Zhu</title>
+  <title> | Meixin Zhu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -165,7 +165,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Motion Segmentation Based on Subspace Clustering</h1>
+      <h1 itemprop="name"></h1>
       <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
@@ -173,7 +173,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Motion%20Segmentation%20Based%20on%20Subspace%20Clustering&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsubspace%2f"
+         href="https://twitter.com/intent/tweet?text=&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsubspace%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
@@ -187,21 +187,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsubspace%2f&amp;title=Motion%20Segmentation%20Based%20on%20Subspace%20Clustering"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsubspace%2f&amp;title="
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsubspace%2f&amp;title=Motion%20Segmentation%20Based%20on%20Subspace%20Clustering"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsubspace%2f&amp;title="
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Motion%20Segmentation%20Based%20on%20Subspace%20Clustering&amp;body=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsubspace%2f">
+         href="mailto:?subject=&amp;body=https%3a%2f%2fMeixinZhu.github.io%2fproject%2fsubspace%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -216,51 +216,6 @@
 
     <div class="article-style" itemprop="articleBody">
       
-
-<p>This project aimed to segment different moving objects in a video sequence, using subspace clustering methods.</p>
-
-<h2 id="subspace-clustering-introduction">Subspace Clustering Introduction</h2>
-
-<p>Clustering refers to techniques that find a low-dimensional representation of a high-dimensional data set. Conventional techniques, such as principal component analysis (PCA), assume that the data are drawn from a single low-dimensional subspace of a high-dimensional space. Such approaches have found widespread applications in many fields, e.g., pattern recognition, data compression, image processing, and bioinformatics.</p>
-
-<p>In practice, however, the data points could be drawn from multiple subspaces, and the membership of the data points to the subspaces might be unknown. For instance, a video sequence could contain several moving objects, and different subspaces might be needed to describe the motion of different objects in the scene. Therefore, there is a need to simultaneously cluster the data into multiple subspaces and find a low-dimensional subspace fitting each group of points. This problem is known as subspace clustering.</p>
-
-<h2 id="clustering-of-linear-subspaces">Clustering of Linear Subspaces</h2>
-
-<p>It is a relatively simple problem to cluster the data sampled from several linear subspaces. We solved this kind of problem by applying Generalized Principal Component Analysis (GPCA) with voting mechanism. Figure 1-a shows a set of sample points in R^3 drawn from a union of three subspace: two lines and a plane. The clustering results are shown in Figure 1-b.
- <figure>
-    <img src="/img/linear%20subspace.jpg"/> <figcaption>
-            <h4>Demonstration of clustering of linear subspace</h4>
-        </figcaption>
-</figure>
-</p>
-
-<h2 id="motion-segmentation">Motion Segmentation</h2>
-
-<p>Motion segmentation is the separation of objects with different motion in video, and it is an indispensable step in the understanding and reconstruction of dynamic scenes.</p>
-
-<p>Feature-point-trajectory based method is widely used. This method firstly uses the standard tracking method to extract feature points of different moving objects in the video, then assign them to the corresponding moving objects.</p>
-
-<p>Considering that GPCA method is vulnerable to data noise, Sparse Subspace Clustering (SSC) was adopted to solve motion segmentation.</p>
-
-<p>SSC is based on the fact that each point in a union of subspaces has a Sparse Representation （SR） with respect to a dictionary formed by all other data points. In general, finding such a SR is NP-hard. Our key contribution is to show that, under mild assumptions, the SR can be obtained ’exactly’ by using an optimization technique. The segmentation of the data is obtained by applying spectral clustering to a similarity matrix built from this SR. The result is shown in the following figure.
-<figure>
-    <img src="/img/motion%20seg.png"/> <figcaption>
-            <h4>Demonstration of motion segmentation: first row: original feature points; second row: segmented feature points</h4>
-        </figcaption>
-</figure>
-</p>
-
-<h2 id="manifold-clustering">Manifold Clustering</h2>
-
-<p>Additionally, we have also investigated clustering of non-linear subspaces, i.e., manifold clustering. The results are shown in the following figure.
-<figure>
-    <img src="/img/motion.png"/> <figcaption>
-            <h4>Manifold clustering: first row: original data; second row: clustered data</h4>
-        </figcaption>
-</figure>
-</p>
-
 
       
       
@@ -286,12 +241,9 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://MeixinZhu.github.io/project/uav/"><span
-      aria-hidden="true">&larr;</span> Traffic Parameter Analysis Platform based on Unmanned Aerial Vehicle</a></li>
-    
 
     
-    <li class="next"><a href="https://MeixinZhu.github.io/project/irl/">Human-Like Driving by Inverse Reinforcement Learning <span
+    <li class="next"><a href="https://MeixinZhu.github.io/project/steer/"> <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

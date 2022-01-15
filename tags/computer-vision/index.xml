@@ -7,29 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022 Meixin Zhu</copyright>
-    <lastBuildDate>Sun, 28 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Aug 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://MeixinZhu.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Udacity Self-Driving Car Engineer Nanodegree</title>
-      <link>https://MeixinZhu.github.io/project/nano/</link>
-      <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/project/nano/</guid>
-      <description>Udacity, partnered with the best companies in the autonomous driving field, offered a Self-Driving Car Engineer Nanodegree Program. I have actively participated in the program and here are the projects I have finished.   Interesting projects in Udacity Self-Driving Car Engineer Nanodegree Program   In this program, I have grasped essential knowledge in deep learning, computer vision, sensor fusion, localization, controllers, vehicle kinematics, automotive hardware for autonomous driving.</description>
-    </item>
-    
-    <item>
-      <title>Motion Segmentation Based on Subspace Clustering</title>
-      <link>https://MeixinZhu.github.io/project/subspace/</link>
-      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/project/subspace/</guid>
-      <description>This project aimed to segment different moving objects in a video sequence, using subspace clustering methods.
-Subspace Clustering Introduction Clustering refers to techniques that find a low-dimensional representation of a high-dimensional data set. Conventional techniques, such as principal component analysis (PCA), assume that the data are drawn from a single low-dimensional subspace of a high-dimensional space. Such approaches have found widespread applications in many fields, e.g., pattern recognition, data compression, image processing, and bioinformatics.</description>
-    </item>
     
     <item>
       <title>Traffic Parameter Analysis Platform based on Unmanned Aerial Vehicle</title>

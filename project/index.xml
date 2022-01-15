@@ -41,15 +41,6 @@
     </item>
     
     <item>
-      <title>Udacity Self-Driving Car Engineer Nanodegree</title>
-      <link>https://MeixinZhu.github.io/project/nano/</link>
-      <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/project/nano/</guid>
-      <description>Udacity, partnered with the best companies in the autonomous driving field, offered a Self-Driving Car Engineer Nanodegree Program. I have actively participated in the program and here are the projects I have finished.   Interesting projects in Udacity Self-Driving Car Engineer Nanodegree Program   In this program, I have grasped essential knowledge in deep learning, computer vision, sensor fusion, localization, controllers, vehicle kinematics, automotive hardware for autonomous driving.</description>
-    </item>
-    
-    <item>
       <title>Autonomous Car Following by Deep Reinforcement Learning</title>
       <link>https://MeixinZhu.github.io/project/rlcar/</link>
       <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
@@ -61,16 +52,6 @@ Deep reinforcement learning can achieve better generalization capability because
     </item>
     
     <item>
-      <title>End-to-End Learning for Steering Control</title>
-      <link>https://MeixinZhu.github.io/project/steer/</link>
-      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/project/steer/</guid>
-      <description>This on-going project is inspired by NVIDIA&amp;rsquo;s research (1) and MIT 6.S094&amp;rsquo;s DeepTesla project (2). It aims to learn human drivers&amp;rsquo; strategy in steering control. The learned model can map raw pixels from a single front-facing camera directly to steering commands.
-The training data includes image frames from a front-facing camera and the corresponding steering angles from human drivers. I started with the model described in Nvidia paper (1) and the following figure shows the initial results.</description>
-    </item>
-    
-    <item>
       <title>Human-Like Driving by Inverse Reinforcement Learning</title>
       <link>https://MeixinZhu.github.io/project/irl/</link>
       <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
@@ -78,16 +59,6 @@ The training data includes image frames from a front-facing camera and the corre
       <guid>https://MeixinZhu.github.io/project/irl/</guid>
       <description>This on-going project is inspired by Levine et al. (2012). It aims to imitate human driving patterns. The rationale is that as long as other agents are human, autonomous vehicles should adopt “human-like” driving skills.
 The assumption is that drivers act based on a utility (reward) function, which represents the preference of the driver and elicits the driving behavior. The role of inverse reinforcement learning (IRL) is to infer or discover the latent utility function from driver (expert) demonstrations and thus generalize the driving policy to unobserved situations.</description>
-    </item>
-    
-    <item>
-      <title>Motion Segmentation Based on Subspace Clustering</title>
-      <link>https://MeixinZhu.github.io/project/subspace/</link>
-      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://MeixinZhu.github.io/project/subspace/</guid>
-      <description>This project aimed to segment different moving objects in a video sequence, using subspace clustering methods.
-Subspace Clustering Introduction Clustering refers to techniques that find a low-dimensional representation of a high-dimensional data set. Conventional techniques, such as principal component analysis (PCA), assume that the data are drawn from a single low-dimensional subspace of a high-dimensional space. Such approaches have found widespread applications in many fields, e.g., pattern recognition, data compression, image processing, and bioinformatics.</description>
     </item>
     
     <item>

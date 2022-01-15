@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/cut-in/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/cut-in/</loc>
       <lastmod>2017-10-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/highway-journal/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/highway-journal/</loc>
       <lastmod>2017-10-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/car-following-model/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/car-following-model/</loc>
       <lastmod>2017-01-09T00:00:00+00:00</lastmod>
     </url>
     
@@ -167,7 +167,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/pca/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/pca/</loc>
       <lastmod>2016-12-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -176,7 +176,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/impact-tongji/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/impact-tongji/</loc>
       <lastmod>2016-12-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -185,7 +185,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/urgency/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/urgency/</loc>
       <lastmod>2016-12-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -203,7 +203,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/ndsr/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/ndsr/</loc>
       <lastmod>2016-10-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -212,7 +212,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/fcw-algorithm/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/fcw-algorithm/</loc>
       <lastmod>2016-09-09T00:00:00+00:00</lastmod>
     </url>
     
@@ -239,25 +239,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/project/nano/</loc>
-      <lastmod>2016-08-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://MeixinZhu.github.io/project/rlcar/</loc>
-      <lastmod>2016-08-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://MeixinZhu.github.io/project/steer/</loc>
       <lastmod>2016-08-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -268,15 +250,6 @@
     
       <loc>https://MeixinZhu.github.io/project/irl/</loc>
       <lastmod>2016-08-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://MeixinZhu.github.io/project/subspace/</loc>
-      <lastmod>2016-08-21T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -311,7 +284,7 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/fcw-impact/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/fcw-impact/</loc>
       <lastmod>2016-07-09T00:00:00+00:00</lastmod>
     </url>
     
@@ -329,8 +302,41 @@
     
     <url>
     
-      <loc>https://MeixinZhu.github.io/publication/cota/</loc>
+      <loc>https://MeixinZhu.github.io/publication/backup_pub/cota/</loc>
       <lastmod>2016-07-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://MeixinZhu.github.io/backup_proj/nano/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://MeixinZhu.github.io/backup_proj/steer/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://MeixinZhu.github.io/backup_proj/subspace/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://MeixinZhu.github.io/backup_proj/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -398,7 +404,7 @@
     <url>
     
       <loc>https://MeixinZhu.github.io/tags/autonomous-driving/</loc>
-      <lastmod>2016-08-28T00:00:00+00:00</lastmod>
+      <lastmod>2016-08-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -408,7 +414,7 @@
     <url>
     
       <loc>https://MeixinZhu.github.io/tags/computer-vision/</loc>
-      <lastmod>2016-08-28T00:00:00+00:00</lastmod>
+      <lastmod>2016-08-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
