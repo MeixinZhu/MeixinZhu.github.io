@@ -23,10 +23,10 @@
     
     <item>
       <title>AlphaDrive: Mastering Driving with Real-World Driving Scenarios</title>
-      <link>https://MeixinZhu.github.io/project/alphadrive/</link>
+      <link>https://MeixinZhu.github.io/backup_proj/alphadrive/</link>
       <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://MeixinZhu.github.io/project/alphadrive/</guid>
+      <guid>https://MeixinZhu.github.io/backup_proj/alphadrive/</guid>
       <description>I am currently working on developing AlphaDrive, a platform equipped with real-world driving scenarios where intelligent agents can learn to drive by trial and error, trials and errors that number in the billions. The platform is comprised of three main modules:
  Driving Scenario Database: containing typical driving scenarios (e.g., car following, lane changing, overtaking, and vehicle-pedestrian conflicts) extracted from naturalistic driving studies or field operation test databases. Microscopic Traffic Simulator: loading driving scenarios, executing given driving policies and returning their performance indicators.</description>
     </item>
