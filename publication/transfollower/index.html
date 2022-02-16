@@ -44,11 +44,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://MeixinZhu.github.io/publication/bus_occ/">
+  <link rel="canonical" href="https://MeixinZhu.github.io/publication/transfollower/">
 
   
 
-  <title>Developing a Practical Method to Compute State-Level Bus Occupancy Rate | Meixin Zhu</title>
+  <title>TransFollower: Long-Sequence Car-Following Trajectory Prediction through Transformer | Meixin Zhu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -174,10 +174,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">Developing a Practical Method to Compute State-Level Bus Occupancy Rate</h1>
+    <h1 itemprop="name">TransFollower: Long-Sequence Car-Following Trajectory Prediction through Transformer</h1>
     <span class="pub-authors" itemprop="author">
       
-      Meixin Zhu, Wenbo Zhu, Jerome M Lutin, Zhiyong Cui, Yinhai Wang
+      Meixin Zhu, Simon S. Du, Xuesong Wang, Hao (Frank) Yang, Ziyuan Pu, Yinhai Wang
       
     </span>
     <span class="pull-right">
@@ -186,35 +186,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Developing%20a%20Practical%20Method%20to%20Compute%20State-Level%20Bus%20Occupancy%20Rate&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2fbus_occ%2f"
+         href="https://twitter.com/intent/tweet?text=TransFollower%3a%20Long-Sequence%20Car-Following%20Trajectory%20Prediction%20through%20Transformer&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2ftransfollower%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2fbus_occ%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2ftransfollower%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2fbus_occ%2f&amp;title=Developing%20a%20Practical%20Method%20to%20Compute%20State-Level%20Bus%20Occupancy%20Rate"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2ftransfollower%2f&amp;title=TransFollower%3a%20Long-Sequence%20Car-Following%20Trajectory%20Prediction%20through%20Transformer"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2fbus_occ%2f&amp;title=Developing%20a%20Practical%20Method%20to%20Compute%20State-Level%20Bus%20Occupancy%20Rate"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2ftransfollower%2f&amp;title=TransFollower%3a%20Long-Sequence%20Car-Following%20Trajectory%20Prediction%20through%20Transformer"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Developing%20a%20Practical%20Method%20to%20Compute%20State-Level%20Bus%20Occupancy%20Rate&amp;body=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2fbus_occ%2f">
+         href="mailto:?subject=TransFollower%3a%20Long-Sequence%20Car-Following%20Trajectory%20Prediction%20through%20Transformer&amp;body=https%3a%2f%2fMeixinZhu.github.io%2fpublication%2ftransfollower%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -230,7 +230,7 @@
     
 
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">This work supported the Federal Highway Administration (FHWA) in presenting state and metropolitan area vehicle occupancy information in compliance with Title 23 of the US Code of Federal Regulations, Part 490 National Performance Measures. The basic goal is to provide and introduce a statistically effective and realistic approach to approximate bus occupancy rates for each US state and Washington, DC. Bus occupancies were calculated separately for transit buses, school buses, and motorcoaches. The average total bus occupancy was determined by aggregating the average occupancy of the vehicle for the three groups weighted by annual vehicle miles traveled. Regarding transit buses, the National Transit Database (NTD) of the Federal Transit Administration (FTA) was used to measure the occupancy of transit buses. For school buses, state transportation statistics from 2015–2016 were used to measure average school bus occupancy for each state. Data provided by the Port Authority of New York and New Jersey (PANYNJ) for the Port Authority Bus Terminal (PABT) in New York City, the largest US bus terminal, were used to measure the occupancy rates for motorcoaches. Results on state-level bus occupancy rates are summarized. The paper concludes with guidelines for future data collection, validation, and training. The date, code, and user guide of this study can be found at an online GitHub repository.</p>
+    <p class="pub-abstract" itemprop="text">Car-following refers to a control process in which the following vehicle (FV) tries to keep a safe distance between itself and the lead vehicle (LV) by adjusting its acceleration in response to the actions of the vehicle ahead. The corresponding car-following models, which describe how one vehicle follows another vehicle in the traffic flow, form the cornerstone for microscopic traffic simulation and intelligent vehicle development. One major motivation of car-following models is to replicate human drivers&rsquo; longitudinal driving trajectories. To model the long-term dependency of future actions on historical driving situations, we developed a long-sequence car-following trajectory prediction model based on the attention-based Transformer model. The model follows a general format of encoder-decoder architecture. The encoder takes historical speed and spacing data as inputs and forms a mixed representation of historical driving context using multi-head self-attention. The decoder takes the future LV speed profile as input and outputs the predicted future FV speed profile in a generative way (instead of an auto-regressive way, avoiding compounding errors). Through cross-attention between encoder and decoder, the decoder learns to build a connection between historical driving and future LV speed, based on which a prediction of future FV speed can be obtained. We train and test our model with 112,597 real-world car-following events extracted from the Shanghai Naturalistic Driving Study (SH-NDS). Results show that the model outperforms the traditional intelligent driver model (IDM), a fully connected neural network model, and a long short-term memory (LSTM) based model in terms of long-sequence trajectory prediction accuracy. We also visualized the self-attention and cross-attention heatmaps to explain how the model derives its predictions.</p>
 
     
     <div class="row">
@@ -270,7 +270,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            June, 2021
+            February, 2022
           </div>
         </div>
       </div>
@@ -290,7 +290,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://MeixinZhu.github.io/pdf/bus_occ.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/2202.03183.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -298,9 +298,6 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/MeixinZhu/bus_occupancy" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -309,8 +306,7 @@
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://www.sciencedirect.com/science/article/abs/pii/S0968090X20305775" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2202.03183" target="_blank" rel="noopener">
   Source Document
 </a>
 
@@ -335,13 +331,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://MeixinZhu.github.io/publication/its_lqr/"><span
-      aria-hidden="true">&larr;</span> Optimizing Signal Timing Control for Large Urban Traffic Networks Using an Adaptive Linear Quadratic Regulator Control Strategy</a></li>
+    <li class="previous"><a href="https://MeixinZhu.github.io/publication/bus_occ/"><span
+      aria-hidden="true">&larr;</span> Developing a Practical Method to Compute State-Level Bus Occupancy Rate</a></li>
     
 
-    
-    <li class="next"><a href="https://MeixinZhu.github.io/publication/transfollower/">TransFollower: Long-Sequence Car-Following Trajectory Prediction through Transformer <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
